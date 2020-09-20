@@ -15,7 +15,8 @@ header {
 img {
     width: 150px;
     height: 200px;
-    position: absolute;
+    /*position: absolute;*/
+    float: right;
     top: 30px;
     right: 11.55em;
     box-shadow: 0px 0px 20px black;

@@ -30,8 +30,8 @@ h2 {
 }
 
 img {
-    max-width: 5vw;
-    height: 10vw;
+    max-width: 10vw;
+    height: 15vw;
     /*position: absolute;*/
     float: right;
     top: 30px;

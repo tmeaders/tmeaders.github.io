@@ -16,7 +16,7 @@ header {
 }
 
 h1 {
-    font-size: 40px;
+    font-size: .5em;
     text-align: center;
     line-height: 15px;
     margin-right: 4em;
@@ -25,13 +25,13 @@ h1 {
 
 h2 {
     border-bottom: 1px solid black;
-    line-height: 40px;
+    line-height: .5em;
     font-family: 'Carter One', cursive;
 }
 
 img {
-    width: 150px;
-    height: 200px;
+    max-width: 20vw;
+    height: 30vw;
     /*position: absolute;*/
     float: right;
     top: 30px;

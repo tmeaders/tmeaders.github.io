@@ -4,12 +4,12 @@
     /******************** All of my the top of my webpage or header css will go below ********************/
 
     h1 {
-        font-size: 40px;
+        font-size: 1em;
 
     }
 
     h2 {
-        line-height: 40px;
+        line-height: 1em;
 
     }
 

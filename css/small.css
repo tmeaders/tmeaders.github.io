@@ -1,0 +1,75 @@
+/* this is the small or main css file*/
+
+/******************** All of the top portion of my website css will go below ********************/
+
+header {
+    margin: 1rem auto;
+    max-width: 760px;
+    font-family: 'Lato', sans-serif;
+    color: #ffffff;
+    background-color: brown;
+    text-align: center;
+    border-radius: 10px;
+    padding: 1rem;
+    height: 70px;
+    font-size: 50px;
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+    line-height: 15px;
+    margin-right: 4em;
+    font-family: 'Carter One', cursive;
+}
+
+h2 {
+    border-bottom: 1px solid black;
+    line-height: 40px;
+    font-family: 'Carter One', cursive;
+}
+
+img {
+    width: 150px;
+    height: 200px;
+    /*position: absolute;*/
+    float: right;
+    top: 30px;
+    right: 11.55em;
+    box-shadow: 0px 0px 20px black;
+}
+
+
+
+/******************** All of the middle or body of my css will go below ********************/
+main {
+    padding: .1rem;
+    margin: 1rem auto;
+    max-width: 760px;
+    font-family: 'Lato', sans-serif;
+}
+
+
+/******************* All of the bottom or footer information will go below here ********************/
+
+footer {
+    font-size: 15px;
+    /*height: 35px;*/
+    line-height: 1px;
+    color: #ffffff;
+    background-color: brown;
+    text-align: center;
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 1rem auto;
+    max-width: 760px;
+    font-family: 'Lato', sans-serif;
+}
+
+footer a {
+    color: white;
+}
+
+footer p {
+    color: goldenrod;
+}

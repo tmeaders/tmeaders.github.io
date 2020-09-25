@@ -2,22 +2,49 @@
 @media (min-width: 32.5em) {
 
     /******************** All of my the top of my webpage or header css will go below ********************/
+    header {
+        height: 5em;
+        border-radius: 10px;
+    }
 
     h1 {
-        font-size: 1em;
+        font-size: 2.5rem;
 
     }
 
     h2 {
-        line-height: 1em;
-
+        font-size: 1.5rem;
     }
 
     /******************** All of my the middle of my webpage or main css will go below ********************/
+    main {
+        max-width: 767px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        font-size: 0.8rem;
+    }
 
+    main section h2,
+    h3 {
+        color: black;
+        font-family: 'Carter One', cursive;
+    }
+
+    main section {
+        margin: 0.5rem;
+        border: 1px solid black;
+        padding: 0 1rem;
+        background-color: burlywood;
+    }
 
 
     /******************** All of my the bottom of my webpage or footer css will go below ********************/
 
+    footer {
+        line-height: .5em;
+        border-radius: 10px;
+
+    }
 
 }

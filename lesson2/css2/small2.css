@@ -67,6 +67,8 @@ section {
 
 img {
     max-width: 100%;
+    border-radius: 25px;
+    border-color: brown;
 
 }
 /******************* All of the bottom or footer information will go below here ********************/

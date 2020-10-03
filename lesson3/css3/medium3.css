@@ -1,0 +1,31 @@
+/******************** All of my the top of my webpage or header css will go below ********************/
+
+@media only screen and (min-width: 37.5em) {
+	nav ul {
+		display: flex;
+		flex-direction: row;
+
+	}
+
+	.headericon {
+		height: 6em;
+		margin-left: -45em;
+
+	}
+
+	header h1 {
+		font-size: 2rem;
+		text-align: center;
+		line-height: 1px;
+		font-family: 'Carter One', cursive;
+		color: white;
+		display: block;
+		margin-top: -1.55em;
+
+	}
+
+	/******************** All of my the middle of my webpage or main css will go below ********************/
+
+	/******************** All of my the bottom of my webpage or footer css will go below ********************/
+
+}

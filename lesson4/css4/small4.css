@@ -1,0 +1,158 @@
+/******************** All of my the top of my webpage or header css will go below ********************/
+
+/*----------- apply a natural box layout model to all elements --------------*/
+
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+h2 {
+    margin: 0;
+    text-align: center;
+    padding: .5rem;
+    font-family: 'Carter One', sans-serif;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 6fr;
+    grid-template-rows: 100px;
+    align-items: center;
+    justify-content: center;
+    background-color: brown;
+    color: white;
+}
+
+
+.headericon {
+    height: 4em;
+    margin-bottom: -1rem;
+}
+
+header h1 {
+    font-size: 1rem;
+    margin-left: 1.5rem;
+    text-align: center;
+    font-family: 'Carter One', cursive;
+    color: white;
+    display: block;
+    margin-top: -1.55em;
+}
+
+header h3 {
+    font-size: .75rem;
+    margin-left: 1.5rem;
+    text-align: center;
+    font-family: 'Lato', cursive;
+    color: white;
+}
+
+
+/******************** All of my the middle of my webpage or main css will go below ********************/
+
+body {
+    background-color: cadetblue;
+    font-family: 'Lato', sans-serif;
+}
+
+
+
+nav {
+    margin: 0 auto;
+}
+
+.navigation {
+    list-style: none;
+    padding: 0;
+}
+
+.navigation ul {
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li {
+    display: none;
+}
+
+.navigation a {
+    display: block;
+    padding: 0.75rem;
+    text-align: left;
+    text-decoration: none;
+    color: white;
+}
+
+.navigation a:hover {
+    color: black;
+    background-color: burlywood;
+}
+
+.responsive li {
+    display: block;
+}
+
+main {
+    max-width: 767px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    font-size: 0.8rem;
+}
+
+div {
+    display: block;
+    margin: 10px;
+    border: 1px solid black;
+    padding: 1.5rem;
+    background-color: cornsilk;
+    font-size: medium;
+}
+
+
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/******************** All of my the bottom of my webpage or footer css will go below ********************/
+
+footer {
+    margin-left: .6rem;
+    margin-right: .6rem;
+    background-color: brown;
+    text-align: center;
+    color: white;
+    font-size: 11px;
+    padding: 1px;
+}
+
+footer a {
+    color: yellow;
+}
+
+
+
+
+
+

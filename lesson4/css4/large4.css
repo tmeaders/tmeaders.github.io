@@ -1,0 +1,55 @@
+/******************** All of my the top of my webpage or header css will go below ********************/
+
+/* 64em is also 1028px when basefont is 16px */
+@media only screen and (min-width: 64em) {
+
+    .headericon {
+        height: 10em;
+        margin-left: 4em;
+        margin-top: 2em;
+    }
+
+    header h1 {
+        font-size: 2rem;
+        text-align: center;
+        line-height: 1px;
+        font-family: 'Carter One', cursive;
+        color: white;
+        display: block;
+        margin-top: -2em;
+
+    }
+
+    header h3 {
+        font-size: 1rem;
+        text-align: center;
+        line-height: 1px;
+        font-family: 'Lato', cursive;
+        color: white;
+    }
+
+
+
+    /******************** All of my the middle of my webpage or main css will go below *******************/
+
+    .navigation {
+        display: flex;
+    }
+
+    .navigation li:first-child {
+        display: none;
+    }
+
+    .navigation li {
+        display: block;
+    }
+
+
+
+
+
+    /******************** All of my the bottom of my webpage or footer css will go below *****************/
+
+
+    /*end large */
+}

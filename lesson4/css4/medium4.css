@@ -1,7 +1,7 @@
 /******************** All of my the top of my webpage or header css will go below ********************/
 /
 /* 35em is also 560px when basefont is 16px */
-@media only screen and (min-width: 35.7em) {
+@media only screen and (min-width: 32.5em) {
 
     .headericon {
         height: 10em;

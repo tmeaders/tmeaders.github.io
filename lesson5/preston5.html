@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="preston town weather page">
+    <title>Lesson 5 | Preston Town Weather Page</title>
+    
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Carter+One%7CLato&display=swap">
+    <link rel="stylesheet" href="/lesson5/css5/normalize5.css">
+    <link rel="stylesheet" href="/lesson5/css5/small5.css">
+    <link rel="stylesheet" href="/lesson5/css5/medium5.css">
+    <link rel="stylesheet" href="/lesson5/css5/large5.css">
+</head>
+
+<body>
+    <aside id="sat-pancakes">
+        <p>
+            Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavillion.
+        </p>
+    </aside>
+    <div id="body-content">
+        <header class="header">
+            <img class="headericon" src="/lesson5/images5/gstate.png" alt="sun icon">
+            <h1>Golden State Climate</h1>
+            <h2>"Best weather in the lower 48 states"</h2>
+            <nav>
+                <ul class="navigation">
+                    <li><a onclick="toggleMenu()" href="#">&#9776; Menu</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Preston</a></li>
+                    <li><a href="#">Soda Springs</a></li>
+                    <li><a href="#">Fish Haven</a></li>
+                    <li><a href="#">Strom Center</a></li>
+                    <li><a href="#">Gallery</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main id="main-content">
+            <h2 class="pi-head">Preston Idaho</h2>
+            <div id="overlay">
+                <div class="banner-img"><img src="/lesson5/images5/mountains_1.jpg" alt="mountains"></div>
+                <div id="atmospheric">
+                    <h2 class="weatherhead"><u>Weather Summary</u></h2>
+                    <div class="dailysum">Currently: Sunny</div>
+
+                    <div class="dailysum">Current Temp High: 76°F</div>
+
+                    <div class="dailysum">Wind Chill: 15°F</div>
+
+                    <div class="dailysum">Humidity: 69%</div>
+
+                    <div class="dailysum">Wind Speed: 5 mph</div>
+                </div>
+            </div>
+            <div id="forecast">
+                <h2 class="forecasthead">Tempurature Forecast</h2>
+                <table>
+                    <tr>
+                        <th>Day</th>
+                        <th id="day1">Wed</th>
+                        <th id="day2">Thu</th>
+                        <th id="day3">Fri</th>
+                        <th id="day4">Sat</th>
+                        <th id="day5">Sun</th>
+                    </tr>
+                    <tr>
+                        <td>Temp</td>
+                        <td id="temp1">60&deg;</td>
+                        <td id="temp2">68&deg;</td>
+                        <td id="temp3">56&deg;</td>
+                        <td id="temp4">52&deg;</td>
+                        <td id="temp5">44&deg;</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="article">
+                <img class="news-img" src="/lesson5/images5/valley_1.jpg" alt="valleyview">
+                <p class="news-para">Lorem ipsum dolor sit amet,consectetur adipiscing elit.
+                    Nulla consectetur justo eu nunc ultricies, at bibendum dolor
+                    volutpat. Aliquam ornare lectus eget libero pretium, in
+                    cursus nulla consectetur. Morbi eu condimentum urna.
+                </p>
+               
+            </div>
+
+        </main>
+        <footer class="footer">
+            <p class="year"> &copy; <span id="year"></span> Golden State Climate | Attributions | Tim Meaders </p>
+            <p>Current Date: <span id="lastupdate"></span>
+                <script src="/lesson5/js5/lastmodified5.js"></script>
+            </p>
+            </p>
+        </footer>
+    </div>
+
+</body>
+
+</html>

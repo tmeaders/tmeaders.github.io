@@ -62,7 +62,7 @@ header h1 {
 
 }
 
-.motto{
+.motto {
     padding: .5rem;
     font-family: 'Carter One', sans-serif;
     margin-left: -2.5em;
@@ -198,7 +198,7 @@ main {
 
 }
 
-#atmospheric h2.weatherhead{
+#atmospheric h2.weatherhead {
     margin-left: 12px;
 }
 
@@ -230,7 +230,7 @@ main {
     height: auto;
 }
 
-#s-elements .preston-map{
+#s-elements .preston-map {
     max-width: 100%;
     height: auto;
 }
@@ -243,19 +243,17 @@ main {
     margin: 0 auto;
 }
 
-#s-elements .info{
-    font-family: 'Lato', sans-serif;  
-    font-size: 1.5em;;
+#s-elements .info {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5em;
+    ;
 }
+
 #s-elements p {
     padding-left: 1em;
     font-family: 'Lato', sans-serif;
     font-size: 1.25em;
-   
-}
 
-#s-elements p.phone{
-   color: black;
 }
 
 /******************** All of my the bottom of my webpage or footer css will go below *****************/

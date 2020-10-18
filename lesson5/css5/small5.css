@@ -230,25 +230,32 @@ main {
     height: auto;
 }
 
-#contacts .preston-map{
+#s-elements .preston-map{
     max-width: 100%;
     height: auto;
 }
 
 
 
-#contacts {
+#s-elements {
     padding: 1em;
     max-width: 960px;
     margin: 0 auto;
 }
 
-#contacts .h4{
+#s-elements .info{
     font-family: 'Lato', sans-serif;  
+    font-size: 1.5em;;
 }
-#contacts p {
+#s-elements p {
     padding-left: 1em;
     font-family: 'Lato', sans-serif;
+    font-size: 1.25em;
+   
+}
+
+#s-elements p.phone{
+   color: black;
 }
 
 /******************** All of my the bottom of my webpage or footer css will go below *****************/

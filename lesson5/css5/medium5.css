@@ -54,6 +54,11 @@
         ;
     }
 
+    .motto {
+        margin-left: -2.5em;
+    }
+    
+
     .navigation {
         display: flex;
     }

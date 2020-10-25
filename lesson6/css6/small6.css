@@ -39,7 +39,7 @@ header {
     justify-content: center;
     background-color: brown;
     color: white;
-    width: 100%; 
+    width: 100%;
 }
 
 
@@ -182,7 +182,7 @@ main {
     height: 15em;
     margin-top: 25px;
     margin-right: 35px;
-    
+
 }
 
 #overlay {
@@ -213,11 +213,11 @@ main {
 .daily-sum {
     /*padding: .5em;*/
     border: 1px solid goldenrod;
-    background: radial-gradient(cadetblue,cornsilk);
+    background: radial-gradient(cadetblue, cornsilk);
     left: 20px;
     opacity: 0.75;
     font-size: 12px;
-    
+
     color: black;
 
 }
@@ -253,7 +253,7 @@ main {
 #s-elements .info {
     font-family: 'Lato', sans-serif;
     font-size: 1.5em;
-    }
+}
 
 #s-elements p {
     padding-left: 1em;

@@ -1,109 +1,109 @@
- /******************** All of my the top of my webpage or header css will go below ********************/
+/******************** All of my the top of my webpage or header css will go below ********************/
 
  /* 64em is also 1028px when basefont is 16px */
  @media only screen and (min-width: 64em) {
 
-     aside {
-         display: flex;
-         justify-content: center;
-         font-size: 30px;
-         background: radial-gradient(burlywood, brown);
-         border-radius: 10px 10px;
-         width: 75%;
-     }
+    aside {
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+        background: radial-gradient(burlywood, brown);
+        border-radius: 10px 10px;
+        width: 75%;
+    }
 
-     header {
-         display: grid;
-         grid-template-columns: 6fr;
-         grid-template-rows: 100px;
-         align-items: center;
-         justify-content: center;
-         background-color: brown;
-         color: white;
-         width: 75%;
-         border-radius: 10px 10px;
-     }
+    header {
+        display: grid;
+        grid-template-columns: 6fr;
+        grid-template-rows: 100px;
+        align-items: center;
+        justify-content: center;
+        background-color: brown;
+        color: white;
+        width: 75%;
+        border-radius: 10px 10px;
+    }
 
-     .headericon {
-         float: left;
-         height: 11em;
-         margin-left: .0em;
-         margin-top: 3em;
-     }
+    .headericon {
+        float: left;
+        height: 11em;
+        margin-left: .0em;
+        margin-top: 3em;
+    }
 
-     header h1 {
-         font-size: 4rem;
-         text-align: center;
-         line-height: 1px;
-         font-family: 'Carter One', cursive;
-         color: white;
-         display: block;
-         margin-top: -.5em;
-         margin-left: -1em;
+    header h1 {
+        font-size: 4rem;
+        text-align: center;
+        line-height: 1px;
+        font-family: 'Carter One', cursive;
+        color: white;
+        display: block;
+        margin-top: -.5em;
+        margin-left: -1em;
 
-     }
+    }
 
-     header h2 {
-         font-size: 2rem;
-         text-align: center;
-         line-height: 1px;
-         font-family: 'Lato', cursive;
-         color: white;
-         padding-bottom: 1em;
-         ;
-     }
+    header h2 {
+        font-size: 2rem;
+        text-align: center;
+        line-height: 1px;
+        font-family: 'Lato', cursive;
+        color: white;
+        padding-bottom: 1em;
+        ;
+    }
 
-     .navigation {
-         display: flex;
-     }
+    .navigation {
+        display: flex;
+    }
 
-     .navigation li:first-child {
-         display: none;
-     }
+    .navigation li:first-child {
+        display: none;
+    }
 
-     .navigation li a {
-         display: block;
-         font-size: 2em;
-     }
+    .navigation li a {
+        display: block;
+        font-size: 2em;
+    }
 
-     /* ****************************** this area is for images *************************************************** */
+    /* ****************************** this area is for images *************************************************** */
 
 
 
-     /******************** All of my the middle of my webpage or main css will go below *******************/
-     .news-para {
-         font-size: 1.5em;
+    /******************** All of my the middle of my webpage or main css will go below *******************/
+    .news-para {
+        font-size: 1.5em;
 
-     }
+    }
 
-     #forecast {
-         display: grid;
-         grid-template-columns: repeat(3, 1fr);
-         font-size: 18px;
-         justify-content: right;
-         margin-left: 9em;
-         padding-top: 1em;
-     }
+    #forecast {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        font-size: 18px;
+        justify-content: right;
+        margin-left: 9em;
+        padding-top: 1em;
+    }
 
-     .forecasthead {
-         font-size: 18px;
-         justify-content: right;
-     }
+    .forecasthead {
+        font-size: 18px;
+        justify-content: right;
+    }
 
-     /******************** All of my the bottom of my webpage or footer css will go below *****************/
+    /******************** All of my the bottom of my webpage or footer css will go below *****************/
 
-     footer {
-         /*margin-left: .6rem;*/
-         /*margin-right: .6rem;*/
-         max-width: 75%;
-         margin-left: 9em;
-         background-color: brown;
-         text-align: center;
-         color: white;
-         font-size: 25px;
-         padding: 1px;
-         border-radius: 10px 10px;
-     }
+    footer {
+        /*margin-left: .6rem;*/
+        /*margin-right: .6rem;*/
+        max-width: 75%;
+        margin-left: 9em;
+        background-color: brown;
+        text-align: center;
+        color: white;
+        font-size: 25px;
+        padding: 1px;
+        border-radius: 10px 10px;
+    }
 
-     /*end large */
- }
+    /*end large */
+}

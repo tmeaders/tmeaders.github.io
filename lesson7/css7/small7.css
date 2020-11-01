@@ -114,10 +114,10 @@ li {
 
 /******************** All of my the middle of my webpage or main css will go below *******************/
 
-body{
+body {
     background-color: cornsilk;
     font-family: 'Lato', sans-serif;
-      
+
 }
 
 
@@ -168,8 +168,8 @@ main {
 
 
 /*-------------------------------------Contacts-------------------------*/
-#d-elements{
-   background: cadetblue;
+#d-elements {
+    background: cadetblue;
     height: 39em;
     margin-top: 2em;
     margin-bottom: 0;
@@ -180,17 +180,17 @@ main {
     width: 3em;
     height: 3em;
     margin-left: 1em;
-    
+
 }
 
 #d-elements .preston-map {
     width: 20em;
     height: 20em;
     margin-top: 2em;
-    margin-bottom:2em;
+    margin-bottom: 2em;
     margin-left: 1em;
     padding-bottom: 1em;
-    
+
 }
 
 
@@ -201,14 +201,14 @@ h3.info {
     margin-left: 1em;
 }
 
-#d-elements p  {
+#d-elements p {
     padding-left: .5em;
     font-family: 'Lato', sans-serif;
     font-size: 1em;
     margin-bottom: .5em;
     margin-left: 1em;
-    
-    }
+
+}
 
 /******************** All of my the bottom of my webpage or footer css will go below *****************/
 
@@ -220,7 +220,7 @@ footer {
     margin-top: 0;
     font-size: 13px;
     height: 5em;
-   
+
 }
 
 footer a {

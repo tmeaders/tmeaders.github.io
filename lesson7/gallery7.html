@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="the gallery page">
+    <title>Lesson 7 | The Gallery Page</title>
+
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Carter+One%7CLato&display=swap">
+    <link rel="stylesheet" href="css7/normalize7.css">
+    <link rel="stylesheet" href="css7/small7.css">
+    <link rel="stylesheet" href="css7/medium7.css">
+    <link rel="stylesheet" href="css7/large7.css">
+</head>
+
+<body>
+  
+    <div id="body-content">
+        
+        <header class="header">
+            <img class="headericon" src="/lesson6/images6/gstate.png" alt="sun icon">
+            <h1>Golden State Climate</h1>
+            <h2 class="motto">"Best weather in the lower 48 states"</h2>
+            <nav>
+                <ul class="navigation">
+                    <li class="menu"><a onclick="toggleMenu()" href="#">&#9776; Menu</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Preston</a></li>
+                    <li><a href="#">Soda Springs</a></li>
+                    <li><a href="#">Fish Haven</a></li>
+                    <li><a href="#">Storm Center</a></li>
+                    <li><a href="#">Gallery</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main id="main-content">
+            <h2> Weather Gallery</h2>
+            <section class="lazyload">
+                <figure>
+                    <img src="images7/placeholder.jpg" data-src="images7/weather7/autumn-day.jpg" alt="autumn-day">
+                    <figcaption>Cool autumn day</figcaption>
+                </figure>
+                <figure>
+                    <img src="images7/placeholder.jpg" data-src="images7/weather7/winter-day.jpg" alt="winter-day">
+                    <figcaption>Cold winter day</figcaption>
+                </figure>
+                <figure>
+                    <img src="images7/placeholder.jpg" data-src="images7/weather7/spring-day.jpg" alt="spring-day">
+                    <figcaption>Beautiful spring day</figcaption>
+                </figure>
+                <figure>
+                    <img src="images7/placeholder.jpg" data-src="images7/weather7/summer-day.jpg" alt="summer-day">
+                    <figcaption>Hot summer day</figcaption>
+                </figure>
+                <figure>
+                    <img src="images7/placeholder.jpg" data-src="images7/weather7/sunny-day.jpg" alt="sunny-day">
+                    <figcaption>Sunny and warm day</figcaption>
+                </figure>
+                <figure>
+                    <img src="images7/placeholder.jpg" data-src="images7/weather7/rainy-day.jpg" alt="rainy-day">
+                    <figcaption>Rainy day</figcaption>
+                </figure>
+                <figure>
+                    <img src="images7/placeholder.jpg" data-src="images7/weather7/lightning-storm.jpg" alt="lightning-storm">
+                    <figcaption>Lightning storm</figcaption>
+                </figure>
+                <figure>
+                    <img src="images7/placeholder.jpg" data-src="images7/weather7/first snow-day.jpg" alt="first snow-day">
+                    <figcaption>First snow day</figcaption>
+                </figure>
+                <figure>
+                    <img src="images7/placeholder.jpg" data-src="images7/weather7/overcast-day.jpg" alt="overcast day">
+                    <figcaption>Cloudy overcast day</figcaption>
+                </figure>
+                <div id="contacts-container">
+            </section>
+            <div id="d-elements">
+                <section id="s-elements">
+                    <img class="preston-map" src="/lesson6/images6/preston-map.jpg" alt="map of Preston, Idaho">
+                    <h3 class="info">Contact Information</h3>
+                    <p>55 E 1st S Preston, ID 83263</p>
+                    <p>email@email.com</p>
+                    <p class="phone">(208)852-3443</p>
+                    <a href="https://www.facebook.com/" target="_blank" rel="noreferrer noopener"><img class="smedia"
+                            src="/lesson6/images6/facebook.png" alt="facebook"></a>
+                    <a href="https://www.instagram.com/" target="_blank" rel="noreferrer noopener"><img class="smedia"
+                            src="/lesson6/images6/instagram.png" alt="instagram"></a>
+                    <a href="https://www.youtube.com/" target="_blank" rel="noreferrer noopener"><img class="smedia"
+                            src="/lesson6/images6/youtube.png" alt="youtube"></a>
+                    <a href="https://twitter.com/" target="_blank" rel="noreferrer noopener"><img class="smedia"
+                            src="/lesson6/images6/twitter.png" alt="twitter"></a>
+                </section>
+
+            </div>
+    </div>
+
+    </main>
+    <footer class="footer">
+
+        <p class="year"> &copy; <span id="year"></span> Golden State Climate | Attributions | Tim Meaders </p>
+        <p>Current Date: <span id="lastupdate"></span>
+
+        </p>
+
+    </footer>
+    </div>
+    <script onload="windChill ()" src="js7/lastmodified7.js"></script>
+    <script src="js7/lazyload.js"></script>
+</body>
+
+</html>

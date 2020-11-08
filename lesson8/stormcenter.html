@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="storm center">
+    <title>Lesson 8 | Storm Center</title>
+
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Carter+One%7CLato&display=swap">
+    <link rel="stylesheet" href="/lesson8/css8/normalize8.css">
+    <link rel="stylesheet" href="/lesson8/css8/small8.css">
+    <link rel="stylesheet" href="/lesson8/css8/medium8.css">
+    <link rel="stylesheet" href="/lesson8/css8/large8.css">
+</head>
+
+<body>
+
+    <div id="body-content">
+        <header class="header">
+            <img class="headericon" src="/lesson8/images8/gstate.png" alt="sun icon">
+            <h1>Golden State Climate</h1>
+            <h2 class="motto">"Best weather in the lower 48 states"</h2>
+            <nav>
+                <ul class="navigation">
+                    <li class="menu"><a onclick="toggleMenu()" href="#">&#9776; Menu</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Preston</a></li>
+                    <li><a href="#">Soda Springs</a></li>
+                    <li><a href="#">Fish Haven</a></li>
+                    <li><a href="#">Storm Center</a></li>
+                    <li><a href="#">Gallery</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h2>Report a Storm</h2>
+            <form method="get" action="thanks.html">
+                <fieldset>
+                    <legend>Contact Information</legend>
+                    <label class="top"> First Name: <input type="text" name="fname" required autofocus
+                            pattern="[A-Za-z]{1-8,}"></label>
+                    <label class="top">Last Name:<input type="text" name="lname" required autofocus
+                            pattern="[A-Za-z]{1-8,}"></label>
+
+                    <label class="top">Phone*<input type="tel" name="phone" placeholder="1235551234"></label>
+                    <label class="top">Email*<input type="email" name="email" placeholder="someone@gmail.com"></label>
+                    <label for="num" class="top">Zip code<input type="number" id="num" name="num" required></label>
+
+
+                </fieldset>
+
+                <fieldset>
+                    <legend>Storm Information</legend>
+                    <label class="top">Date of Storm<input type="date" name="stormDate"></label>
+                    <label class="top" for="storm">Type of Storm:
+                        <input list="storm-type" id="storm" name="stormtype" /></label>
+                    <datalist id="storm-type">
+                        <option value="Flash Flood"></option>
+                        <option value="Hail"></option>
+                        <option value="Hurricane"></option>
+                        <option value="Thunderstorm"></option>
+                        <option value="Tornado"></option>
+                    </datalist>
+                    <label class="top" for="rating">Severity of Storm</label>
+                    <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks"
+                        oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                    <span id="ratingvalue">5</span>
+
+                    <datalist id="tickmarks">
+                        <option value="0">
+                        <option value="1">
+                        <option value="2">
+                        <option value="3">
+                        <option value="4">
+                        <option value="5">
+                        <option value="6">
+                        <option value="7">
+                        <option value="8">
+                        <option value="9">
+                        <option value="10">
+                    </datalist>
+
+
+
+                    <label class="top">Storm Region
+                        <select name="subject">
+                            <option value=""> Please Select &#9662;</option>
+                            <option value="Preston">Preston</option>
+                            <option value="Soda Springs">Soda Springs</option>
+                            <option value="Fishave">Fishaven</option>
+                        </select>
+                    </label>
+
+                    <div>Are you in Danger?</div>
+                    <label class="sbs"><input type="radio" name="audience" value="yes"> Yes</label>
+                    <label class="sbs"><input type="radio" name="audience" value="no"> No</label>
+                    <label class="sbs"><input type="radio" name="audience" value="maybe"> Maybe</label>
+
+                    <label class="top" for="comments">Additional Comments</label>
+                    <textarea id="comments" name="comments" rows="5" cols="33"></textarea>
+
+
+                </fieldset>
+                <input type="submit" value="Report Storm" class="submitBtn">
+            </form>
+
+
+
+
+
+        </main>
+
+
+        <footer class="footer">
+
+            <p class="year"> &copy; <span id="year"></span> Golden State Climate | Attributions | Tim Meaders </p>
+            <p>Current Date: <span id="lastupdate"></span>
+
+            </p>
+
+        </footer>
+    </div>
+    <script onload="windChill ()" src="/lesson8/js8/lastmodified8.js"></script>
+</body>
+
+</html>

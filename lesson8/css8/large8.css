@@ -1,0 +1,144 @@
+/******************** All of my the top of my webpage or header css will go below ********************/
+
+/* 64em is also 1028px when basefont is 16px */
+@media only screen and (min-width: 64em) {
+
+    header {
+        width: 84.5em;
+        height: 13em;
+        padding-bottom: 1em;
+        margin-left: 4em;
+        border-radius: 10px 10px;
+    }
+
+    .headericon {
+        float: left;
+        height: 11em;
+        margin-left: .0em;
+        margin-top: 3em;
+    }
+
+    header h1 {
+        font-size: 4rem;
+        text-align: center;
+        line-height: 1px;
+        font-family: 'Carter One', cursive;
+        color: white;
+        display: block;
+        margin-top: -.5em;
+        margin-left: -.25em;
+
+    }
+
+    header h2 {
+        font-size: 4em;
+        text-align: center;
+        line-height: 1px;
+        font-family: 'Lato', cursive;
+        color: white;
+        padding-bottom: 1em;
+        ;
+    }
+h2{
+    margin:0;
+   text-align: center;
+   margin-left: 3em;
+    font-size: 2em;
+    padding: 1em;
+  
+}
+  h2.motto {
+        font-size: 2em;
+        margin: 0;
+      
+    }
+
+    nav {
+        margin: 0 auto;
+        max-width: 100%;
+        padding: 0 10em;
+    }
+
+
+    .navigation {
+        display: flex;
+        margin-left: 4em;
+
+    }
+
+    .navigation li {
+        display: block;
+        flex: 1 1 auto;
+        font-size: 2em;
+    }
+
+    .navigation li:first-child {
+        display: none;
+    }
+
+    .navigation li a {
+        text-align: center;
+        white-space: nowrap;
+    }
+
+    .navigation li a:hover {
+        color: black;
+        background:whitesmoke;
+    }
+
+   nav ul li a.active{
+        color: black;
+        background-color: goldenrod;
+        
+    }
+
+    /* ****************************** this area is for images *************************************************** */
+
+    
+
+
+
+    /******************** All of my the middle of my webpage or main css will go below *******************/
+    body {
+        width: 55em;
+        margin: 2rem;
+        
+        margin-top: 0;
+    }
+
+    main {
+        width: 84.35em;
+        justify-content: center;
+    }
+
+    form fieldset {
+        margin-left: 8em;
+    }
+
+
+    form label.sbs{
+        padding: .4rem 0;
+    }
+
+    form input.submitBtn{
+        margin-left: 10em;
+    }
+
+    /*-------------------------------------Contacts-------------------------*/
+
+
+    /******************** All of my the bottom of my webpage or footer css will go below *****************/
+
+    footer {
+        width: 54em;
+        margin-left: 2.5em;
+        background-color: brown;
+        text-align: center;
+        color: white;
+        font-size: 25px;
+        padding: 1px;
+        border-radius: 10px 10px;
+    }
+
+    /*end large */
+}

@@ -1,4 +1,4 @@
-const requestURL = 'https://byui-cit230.github.io/lessons/lesson-09/data/latter-day-prophttps://byui-cit230.github.io/weather/data/towndata.jsonhets.json';
+const requestURL = 'https://byui-cit230.github.io/lessons/lesson-09/data/latter-day-prophttps.json';
 
 fetch(requestURL)
 .then(function (response) {

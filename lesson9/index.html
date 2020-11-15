@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="weather page">
+    <title>Lesson 9 | weather page</title>
+
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Carter+One%7CLato&display=swap">
+    <link rel="stylesheet" href="css9/normalize6.css">
+    <link rel="stylesheet" href="css9/small9.css">
+    <link rel="stylesheet" href="css9/medium9.css">
+    <link rel="stylesheet" href="css9/large9.css">
+   
+</head>
+
+<body>
+    
+    <div id="body-content">
+        <header class="header">
+            <img class="headericon" src="images9/gstate.png" alt="sun icon">
+            <h1>Golden State Climate</h1>
+            <h2 class="motto">"Best weather in the lower 48 states"</h2>
+            <nav>
+                <ul class="navigation">
+                    <li class="menu"><a onclick="toggleMenu()" href="#">&#9776; Menu</a></li>
+                    <li><a href="/lesson9/index.html">Home</a></li>
+                    <li><a href="/lesson6/preston6.html">Preston</a></li>
+                    <li><a href="#">Soda Springs</a></li>
+                    <li><a href="#">Fish Haven</a></li>
+                    <li><a href="/lesson8/stormcenter.html">Storm Center</a></li>
+                    <li><a href="/lesson7/gallery7.html">Gallery</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main id="main-content">
+            <h3 class="pi-head">Welcome</h3>
+           <div class="towns"></div>
+                
+            <div id="contacts-container">
+                <div id="d-elements">
+                    <section id="s-elements">
+                        <img class="preston-map" src="images9/preston-map.jpg" alt="map of Preston, Idaho">
+                        <h3 class="info">Contact Information</h3>
+                        <p>55 E 1st S Preston, ID 83263</p>
+                        <p>email@email.com</p>
+                        <p class="phone">(208)852-3443</p>
+                        <a href="https://www.facebook.com/" target="_blank" rel="noreferrer noopener"><img
+                                class="smedia" src="images9/facebook.png" alt="facebook"></a>
+                        <a href="https://www.instagram.com/" target="_blank" rel="noreferrer noopener"><img
+                                class="smedia" src="images9/instagram.png" alt="instagram"></a>
+                        <a href="https://www.youtube.com/" target="_blank" rel="noreferrer noopener"><img class="smedia"
+                                src="images9/youtube.png" alt="youtube"></a>
+                        <a href="https://twitter.com/" target="_blank" rel="noreferrer noopener"><img class="smedia"
+                                src="images9/twitter.png" alt="twitter"></a>
+                    </section>
+
+                </div>
+            </div>
+
+        </main>
+        <footer class="footer">
+
+            <p class="year"> &copy; <span id="year"></span> Golden State Climate | Attributions | Tim Meaders </p>
+            <p>Current Date: <span id="lastupdate"></span>
+
+            </p>
+
+        </footer>
+    </div>
+    <script src="js9/scripts9.js"></script>
+    <script src="js9/json.js"></script>
+</body>
+
+</html>

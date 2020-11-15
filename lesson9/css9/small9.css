@@ -1,0 +1,247 @@
+/******************** All of my the top of my webpage or header css will go below ********************/
+
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+
+h3 {
+    margin: 0;
+    padding: .5rem;
+    font-family: 'Carter One', sans-serif;
+    margin: center;
+}
+
+
+
+header {
+    display: grid;
+    grid-template-columns: 6fr;
+    grid-template-rows: 100px;
+    align-items: center;
+    justify-content: center;
+    background-color: brown;
+    color: white;
+    width: 100%;
+}
+
+
+.headericon {
+    height: 10em;
+    margin-bottom: 0;
+    margin-top: 4.4em;
+    margin-left: -.5rem;
+}
+
+header h1 {
+    font-size: 2.5em;
+    text-align: center;
+    font-family: 'Carter One', cursive;
+    color: white;
+    display: block;
+    margin-top: -1em;
+    margin-left: -2em;
+
+}
+
+.motto {
+    padding: .5rem;
+    font-family: 'Carter One', sans-serif;
+    margin-left: -7rem;
+    font-size: 2em;
+}
+
+header h2 {
+    font-size: .75rem;
+    margin-left: 1.5rem;
+    text-align: center;
+    font-family: 'Lato', cursive;
+    color: white;
+}
+
+nav {
+    margin: 0 auto;
+}
+
+.navigation {
+    list-style: none;
+    padding: 0;
+    margin-left: -20em;
+}
+
+
+
+.navigation ul {
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li {
+    display: none;
+}
+
+.navigation a {
+    display: block;
+    padding: 0.75rem;
+    text-align: left;
+    text-decoration: none;
+    color: white;
+}
+
+.navigation a:hover {
+    color: black;
+    background-color: burlywood;
+}
+
+.responsive li {
+    display: block;
+}
+
+/******************** All of my the middle of my webpage or main css will go below *******************/
+
+body {
+    background-color: cornsilk;
+    font-family: 'Lato', sans-serif;
+    display: grid;
+}
+
+
+main {
+    max-width: 767px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows: 5em 1fr 8em 23em;
+    font-size: 0.8rem;
+    background-color: cornsilk;
+}
+
+h3.pi-head {
+    font-size: 4em;
+    text-align: center;
+}
+
+/*home page styling */
+.body-content {
+    justify-content: center;
+    padding: 30px;
+}
+
+.places {
+    display: block;
+    border: 2px solid #023c19;
+    padding: 20px;
+    margin: 10px;
+    margin-left: -2em;
+    background-color: cadetblue;
+
+}
+
+.info {
+    text-align: center;
+    font-size: 1.75rem;
+}
+
+
+h4 {
+    font-size: 2.75rem;
+    font-family: 'Lato', sans-serif;
+    margin-top: -.05em;
+
+}
+
+h5 {
+    font-size: 1.75rem;
+    font-family: 'lato', sans-serif;
+    margin-top: -1em;
+}
+
+.townPic {
+    width: 38rem;
+
+}
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+
+
+/*-------------------------------------Contacts-------------------------*/
+
+#contacts-container {
+    display: inline-block;
+    line-height: 1em;
+    background: radial-gradient(cornsilk, cadetblue);
+}
+
+.smedia {
+    padding: .5em;
+    width: 3em;
+    height: 3em;
+}
+
+#s-elements .preston-map {
+    width: 26em;
+    height: auto;
+    margin-right: 25px;
+}
+
+
+
+#s-elements {
+    padding: 1em;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+#s-elements .info {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5em;
+}
+
+#s-elements p {
+    padding-left: 1em;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.25em;
+
+}
+
+/******************** All of my the bottom of my webpage or footer css will go below *****************/
+
+footer {
+    background-color: brown;
+    text-align: center;
+    color: white;
+    font-size: 13px;
+    padding: 1px;
+    width: 100%;
+    margin-left: -7.75em;
+}
+
+footer a {
+    color: yellow;
+}
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/*end of small */

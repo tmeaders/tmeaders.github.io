@@ -11,8 +11,8 @@
         justify-content: center;
         background-color: brown;
         color: white;
-        width: 83em;
-        margin-left: 16.5em;
+        width: 84em;
+        margin-left: 18em;
         border-radius: 10px 10px;
     }
 
@@ -130,8 +130,8 @@
         display: inline-block;
         line-height: 1em;
         background: cadetblue;
-        width: 98em;
-        margin-left: .85em;
+        width: 104.5em;
+        margin-left: .25em;
     }
 
     .smedia {
@@ -174,8 +174,8 @@
     /******************** All of my the bottom of my webpage or footer css will go below *****************/
 
     footer {
-        width: 90em;
-        margin-left: 10.5em;
+        width: 53.75em;
+        margin-left: 11.5em;
         background-color: brown;
         text-align: center;
         color: white;

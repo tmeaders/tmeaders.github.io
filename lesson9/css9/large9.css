@@ -76,7 +76,7 @@
     /* ****************************** this area is for images *************************************************** */
     .towns {
         display: flex;
-        margin-left: -2.35em;
+        margin-left: -.75em;
     }
 
     .info {
@@ -89,6 +89,7 @@
     .places {
         display: block;
         width: 33.5em;
+        margin: 1em;
 
 
     }
@@ -129,8 +130,8 @@
         display: inline-block;
         line-height: 1em;
         background: cadetblue;
-        width: 103.75em;
-        margin-left: -1.5em;
+        width: 98em;
+        margin-left: .85em;
     }
 
     .smedia {

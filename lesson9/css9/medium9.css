@@ -70,6 +70,10 @@
         margin-left: 3.5em;
     }
 
+    h3{
+        font-size: 2rem;
+    }
+
     /* ****************************** this area is for images *************************************************** */
     
 
@@ -115,7 +119,7 @@ h5{
     text-align: center;
   
 }
-}
+
     /*------------------------------ Contacts-----------------------------*/
     #contacts-container {
         display: inline-block;

@@ -32,15 +32,15 @@ header {
     justify-content: center;
     background-color: brown;
     color: white;
-    width: 22em;
+    width: 39rem;
 }
 
 
 .headericon {
     height: 10em;
-    margin-bottom: 0;
+    margin-bottom: 1rem;
     margin-top: 2.4em;
-    margin-left: 6.5rem;
+    margin-left: 13rem;
 }
 
 header h1 {
@@ -59,7 +59,7 @@ header h1 {
     font-family: 'Carter One', sans-serif;
     margin-left: 1rem;
     margin-top: -1rem;
-    font-size: 1.25rem;
+    font-size: 1.75rem;
 }
 
 header h2 {
@@ -99,6 +99,7 @@ li {
 
 .navigation a {
     display: block;
+    font-size: x-large;
     padding: 0.75rem;
     text-align: left;
     text-decoration: none;
@@ -186,7 +187,7 @@ h5 {
 #contacts-container {
     display: inline-block;
     line-height: 1em;
-    height: 35em;
+    height: 36.5em;
     width: 39rem;
     margin-bottom: 1em;
     margin-left: -.05em;
@@ -201,8 +202,8 @@ h5 {
 }
 
 #s-elements .preston-map {
-    width: 26em;
-    height: auto;
+    width: 37.25rem;
+    height: 17rem;
     margin-right: 25px;
 }
 
@@ -234,11 +235,12 @@ footer {
     background-color: brown;
     text-align: center;
     color: white;
-    font-size: 13px;
+    font-size: 18px;
     padding: 1px;
     width: 39rem;
+    height: 6em;
     margin-left: -.05rem;
-    margin-top: .65em;
+    margin-top: 4.5em;
 }
 
 footer a {

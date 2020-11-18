@@ -134,6 +134,7 @@
         background: cadetblue;
         width: 104.5em;
         margin-left: .25em;
+        height: 20em;
     }
 
     .smedia {
@@ -178,6 +179,7 @@
     footer {
         width: 53.75em;
         margin-left: 11.5em;
+        margin-top: -1.5em;
         background-color: brown;
         text-align: center;
         color: white;

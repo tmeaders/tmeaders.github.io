@@ -4,18 +4,12 @@
 @media only screen and (min-width: 32.5em) {
    
     header {
-        display: grid;
-        grid-template-columns: 6fr;
-        grid-template-rows: 100px;
-        align-items: center;
-        justify-content: center;
-        background-color: brown;
-        color: white;
         width: 58em;
         border-radius: 10px 10px;
         margin: 0 auto;
     }
 
+    
     .headericon {
         float: left;
         height: 11em;

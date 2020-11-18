@@ -128,13 +128,14 @@ h5{
         line-height: 1em;
         background: cadetblue;
         height: 40em;
-        width: 59.25em;
+        width: 70.75em;
         margin-bottom: 1em;
-        margin-left: -.05em;
+        margin-left: -5em;
            
     }
     
     #s-elements .preston-map {
+        float: right;
         width: 30em;
         height: 20em;
         margin-left: 25px;

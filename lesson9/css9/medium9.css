@@ -130,7 +130,7 @@ h5{
         height: 40em;
         width: 70.75em;
         margin-bottom: 1em;
-        margin-left: -5em;
+        margin-left: -5.25em;
            
     }
     
@@ -144,7 +144,7 @@ h5{
 
     #s-elements .info {
         margin: 1.25em;
-        margin-left: -24em;
+        margin-left: -11em;
     }
 
     #s-elements p {
@@ -158,8 +158,8 @@ h5{
     /******************** All of my the bottom of my webpage or footer css will go below *****************/
 
     footer {
-        width: 30.5em;
-        margin-left: 4em;
+        width: 36.5em;
+        margin-left: 2em;
         margin-top: 6.65em;
         background-color: brown;
         text-align: center;

@@ -1,0 +1,281 @@
+/******************** All of my the top of my webpage or header css will go below ********************/
+
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+aside {
+    display: block;
+    justify-content: center;
+    font-size: 19px;
+    background: radial-gradient(burlywood, brown);
+    padding: 10px;
+    padding-left: 2em;
+}
+
+h2 {
+    margin: 0;
+    padding: .5rem;
+    font-family: 'Carter One', sans-serif;
+    margin-left: 6em;
+}
+
+
+
+header {
+    display: grid;
+    grid-template-columns: 6fr;
+    grid-template-rows: 100px;
+    align-items: center;
+    justify-content: center;
+    background-color: brown;
+    color: white;
+    width: 100%;
+}
+
+
+.headericon {
+    height: 8em;
+    margin-bottom: 0;
+    margin-top: 2em;
+    margin-left: -1em;
+}
+
+header h1 {
+    font-size: 2.55em;
+    margin-left: -3.5rem;
+    text-align: center;
+    font-family: 'Carter One', cursive;
+    color: white;
+    display: block;
+    margin-top: -1.55em;
+    margin-left: 1.25em;
+
+}
+
+.motto {
+    padding: .5rem;
+    font-family: 'Carter One', sans-serif;
+    margin-left: 7.5em;
+}
+
+header h3 {
+    font-size: .75rem;
+    margin-left: 1.5rem;
+    text-align: center;
+    font-family: 'Lato', cursive;
+    color: white;
+}
+
+nav {
+    margin: 0 auto;
+}
+
+.navigation {
+    list-style: none;
+    padding: 0;
+}
+
+.navigation ul {
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li {
+    display: none;
+}
+
+.navigation a {
+    display: block;
+    padding: 0.75rem;
+    text-align: left;
+    text-decoration: none;
+    color: white;
+}
+
+.navigation a:hover {
+    color: black;
+    background-color: burlywood;
+}
+
+.responsive li {
+    display: block;
+}
+
+/******************** All of my the middle of my webpage or main css will go below *******************/
+.pi-head {
+    font-size: 3em;
+}
+
+body {
+    background-color: cornsilk;
+    font-family: 'Lato', sans-serif;
+    display: grid;
+}
+
+
+main {
+    max-width: 767px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows: 5em 1fr 8em 23em;
+    font-size: 0.8rem;
+    background-color: cornsilk;
+}
+
+.forecast {
+    /*display: grid;
+    grid-template-columns: repeat(3, 1fr);*/
+    font-size: 18px;
+    justify-content: right;
+    padding-top: 1em;
+}
+
+.forecasthead {
+    font-size: 18px;
+    justify-content: right;
+}
+
+.article {
+    display: inline-block;
+    /*grid-template-columns: repeat(2, 1fr);*/
+    background: radial-gradient(cornsilk, cadetblue);
+}
+
+.news-para {
+
+    font-size: 15px;
+    padding-left: 20px;
+
+}
+
+/* ************* this area is to be used for all images ******************************************* */
+
+.banner-img {
+    max-width: 100%;
+
+}
+
+.news-img {
+    max-width: 150em;
+    float: right;
+    height: 15em;
+    margin-top: 25px;
+    margin-right: 20px;
+}
+
+#overlay {
+    position: relative;
+    right: 10px;
+}
+
+#atmospheric {
+    display: block;
+    left: 20px;
+    bottom: 290px;
+    align-items: end;
+    box-shadow: 5px 5px 30px;
+    background-color: #222629;
+    position: absolute;
+    text-align: center;
+    font-size: 1em;
+
+}
+
+#atmospheric h2.weatherhead {
+    margin-left: 12px;
+}
+
+#atmospheric,
+.daily-sum {
+    padding: .5em;
+    border: 1px solid goldenrod;
+    background: radial-gradient(burlywood, brown);
+    left: 20px;
+    height: 15em;
+    opacity: 0.75;
+    font-size: 15px;
+    color: black;
+
+}
+
+
+/*-------------------------------------Contacts-------------------------*/
+
+#contacts-container {
+    display: inline-block;
+    line-height: 1em;
+    background: radial-gradient(cornsilk, cadetblue);
+}
+
+.smedia {
+    padding: .5em;
+    max-width: 5em;
+    height: auto;
+}
+
+#s-elements .preston-map {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+#s-elements {
+    padding: 1em;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+#s-elements .info {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5em;
+    ;
+}
+
+#s-elements p {
+    padding-left: 1em;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.25em;
+
+}
+
+/******************** All of my the bottom of my webpage or footer css will go below *****************/
+
+footer {
+    background-color: brown;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    padding: 1px;
+}
+
+footer a {
+    color: yellow;
+}
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/*end of small */

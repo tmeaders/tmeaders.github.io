@@ -101,6 +101,11 @@
         
      }
 
+     table, td, th{
+         border-spacing: .5em;
+         padding-left: 3em;
+
+     }
      /******************** All of my the bottom of my webpage or footer css will go below *****************/
 
      footer {

@@ -23,7 +23,7 @@ fetch(fivedayURL)
       document.getElementById(`forecast${day + 1}`).textContent = Math.round(
         forecast[day].main.temp
       );
-      document.getElementById(`isrc${day + 1}`).setAttribute("src", imagesrc);
-      document.getElementById(`isrc${day + 1}`).setAttribute("alt", desc);
+      document.getElementById(`icon${day + 1}`).setAttribute("src", imagesrc);
+      document.getElementById(`icon${day + 1}`).setAttribute("alt", desc);
     }
   });

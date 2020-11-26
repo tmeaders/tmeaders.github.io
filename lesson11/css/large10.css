@@ -88,7 +88,6 @@
          justify-content: right;
          margin: 0;
          margin-bottom: .25em;
-         height: 15em;
          padding-top: 1em;
          background: radial-gradient(cornsilk, cadetblue);
          border: solid;
@@ -102,13 +101,11 @@
         
      }
 
-     table, td, th {
+     table, td, th{
          border-spacing: .5em;
          padding-left: 3em;
 
-         }
-        
-         
+     }
      /******************** All of my the bottom of my webpage or footer css will go below *****************/
 
      footer {

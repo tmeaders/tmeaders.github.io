@@ -1,4 +1,4 @@
-/*Display the copyright year */
+/* ---------------- Display the copyright year ----------------------------------------- */
 let date = new Date();
 let currentyear = date.getFullYear();
 /*let lastupdate = document.lastModified;
@@ -6,7 +6,7 @@ document.getElementById("lastupdate").innerHTML = lastupdate;*/
 document.getElementById("year").innerHTML = currentyear;
 
 
-/*Display the day of the week, month by name, and year*/
+/* -------------- Display the day of the week, month by name, and year ------------------- */
 
 try {
   const options = {
@@ -37,9 +37,9 @@ if (show.getDay() == 5) {
   document.getElementById("sat-pancakes").style.display = "none";
 }
 
-/* **************************** lesson 6 ************************************ */
+/* ----------------------------- lesson 6 --------------------------------* */
 
-function windChill() {
+/*function windChill() {
   let temp = parseFloat(document.getElementById("dailytemp").textContent);
   let mph = parseFloat(document.getElementById("dailyspeed").textContent);
 
@@ -50,4 +50,39 @@ function windChill() {
   } else {
     document.getElementById("dailychill").textContent = "N/A";
   }
+}*/
+
+/*--------------------------------- Lesson 8 --------------------------------*/
+function adjustRating(rating) {
+  document.getElementById("ratingvalue").innerHTML = rating;
+}
+
+/*  ---------------- lazy load images ------------------------------------  */
+
+const imagesToLoad = document.querySelectorAll("img[data-src]");
+const imgOptions = {
+    threshold: 0.5
+};
+const loadImages = (image) => {
+    image.setAttribute('src', image.getAttribute('data-src'));
+    image.onload = () => {
+        image.removeAttribute("data-src");
+    };
+};
+if ('IntersectionObserver' in window) {
+    const imgObserver = new IntersectionObserver ((items, imgObserver) => {
+        items.forEach((item) => {
+            if (item.isIntersecting){
+                loadImages(item.target);
+                imgObserver.unobserve(item.target);
+            }
+        });
+    },imgOptions);
+    imagesToLoad.forEach((img) => {
+        imgObserver.observe(img);
+    });
+} else {
+    imagesToLoad.forEach((img) => {
+        loadImages(img);
+    });
 }

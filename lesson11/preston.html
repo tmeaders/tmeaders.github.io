@@ -9,10 +9,10 @@
 
     <link rel="shortcut icon" href="favicon.ico" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Carter+One%7CLato&display=swap" />
-    <link rel="stylesheet" href="css10/normalize10.css" />
-    <link rel="stylesheet" href="css10/small10.css" />
-    <link rel="stylesheet" href="css10/medium10.css" />
-    <link rel="stylesheet" href="css10/large10.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
 </head>
 
 <body>
@@ -24,26 +24,26 @@
     </aside>
     <div id="body-content">
         <header class="header">
-            <img class="headericon" src="images10/gstate.png" alt="sun icon" />
+            <img class="headericon" src="images/gstate.png" alt="sun icon" />
             <h1>Golden State Climate</h1>
             <h2 class="motto">"Best weather in the lower 48 states"</h2>
             <nav>
                 <ul class="navigation">
                     <li><a onclick="toggleMenu()" href="#">&#9776; Menu</a></li>
-                    <li><a href="../lesson9/index.html">Home</a></li>
-                    <li><a href="preston10.html">Preston</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="preston.html">Preston</a></li>
                     <li><a href="#">Soda Springs</a></li>
                     <li><a href="#">Fish Haven</a></li>
-                    <li><a href="../lesson8/stormcenter.html">Strom Center</a></li>
-                    <li><a href="../lesson7/gallery7.html">Gallery</a></li>
+                    <li><a href="stormcenter.html">Storm Center</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
                 </ul>
             </nav>
         </header>
         <main id="main-content">
             <h2 class="pi-head">Preston Idaho</h2>
             <div id="overlay">
-                <div class="banner-img">
-                    <img src="images10/mountains_1.jpg" alt="mountains" />
+                <div >
+                    <img class="banner-img" src="images/mountains_1.jpg" alt="mountains" />
                 </div>
                 <div id="atmospheric">
                     <h2 class="weatherhead"><u>Weather Summary</u></h2>
@@ -59,8 +59,11 @@
                 </div>
             </div>
             <section class="forecast">
-                <h3>5 Day Forecast</h3>
+                <!--<h3>5 Day Forecast</h3> -->
                 <table>
+                    <thead>
+                        <th colspan="5"> Five Day Forecast</th>
+                    </thead>
                   <tr>
                     <th><span id="dayofweek1"></span></th>
                     <th><span id="dayofweek2"></span></th>
@@ -70,24 +73,23 @@
                   </tr>
                   
                   <tr>
+                    <td><span id="isrc1"></span> &nbsp; <img src="" alt="" id="icon1"></td>
+                    <td><span id="isrc2"></span> &nbsp; <img src="" alt="" id="icon2"></td>
+                    <td><span id="isrc3"></span> &nbsp; <img src="" alt="" id="icon3"></td>
+                    <td><span id="isrc4"></span> &nbsp; <img src="" alt="" id="icon4"></td>
+                    <td><span id="isrc5"></span> &nbsp; <img src="" alt="" id="icon5"></td>
+                </tr>
+                <tr>
                     <td><span id="forecast1"></span>&#8457;</td>
                     <td><span id="forecast2"></span>&#8457;</td>
                     <td><span id="forecast3"></span>&#8457;</td>
                     <td><span id="forecast4"></span>&#8457;</td>
                     <td><span id="forecast5"></span>&#8457;</td>
                   </tr>
-
-                  <tr>
-                    <td><span id="icon1"></span> &nbsp; <img src="" alt="" id="icon"></td>
-                    <td><span id="icon2"></span> &nbsp; <img src="" alt="" id="icon"></td>
-                    <td><span id="icon3"></span> &nbsp; <img src="" alt="" id="icon"></td>
-                    <td><span id="icon4"></span> &nbsp; <img src="" alt="" id="icon"></td>
-                    <td><span id="icon5"></span> &nbsp; <img src="" alt="" id="icon"></td>
-                </tr>
                 </table>
             </section>
             <div class="article">
-                <img class="news-img" src="images10/valley_1.jpg" alt="valleyview" />
+                <img class="news-img" src="images/valley_1.jpg" alt="valleyview" />
                 <p class="news-para">
                     Lorem ipsum dolor sit amet,consectetur adipiscing elit. Nulla
                     consectetur justo eu nunc ultricies, at bibendum dolor volutpat.
@@ -98,19 +100,19 @@
             <div id="contacts-container">
                 <div id="d-elements">
                     <section id="s-elements">
-                        <img class="preston-map" src="images10/preston-map.jpg" alt="map of Preston, Idaho" />
+                        <img class="preston-map" src="images/preston-map.jpg" alt="map of Preston, Idaho" />
                         <h4 class="info">Contact Information</h4>
                         <p>55 E 1st S Preston, ID 83263</p>
                         <p>email@email.com</p>
                         <p class="phone">(208)852-3443</p>
                         <a href="https://www.facebook.com/" target="_blank" rel="noreferrer noopener"><img
-                                class="smedia" src="images10/facebook.png" alt="facebook" /></a>
+                                class="smedia" src="images/facebook.png" alt="facebook" /></a>
                         <a href="https://www.instagram.com/" target="_blank" rel="noreferrer noopener"><img
-                                class="smedia" src="images10/instagram.png" alt="instagram" /></a>
+                                class="smedia" src="images/instagram.png" alt="instagram" /></a>
                         <a href="https://www.youtube.com/" target="_blank" rel="noreferrer noopener"><img class="smedia"
-                                src="images10/youtube.png" alt="youtube" /></a>
+                                src="images/youtube.png" alt="youtube" /></a>
                         <a href="https://twitter.com/" target="_blank" rel="noreferrer noopener"><img class="smedia"
-                                src="images10/twitter.png" alt="twitter" /></a>
+                                src="images/twitter.png" alt="twitter" /></a>
                     </section>
                 </div>
             </div>
@@ -122,9 +124,9 @@
             </p>
             <p>
                 Current Date: <span id="lastupdate"></span>
-                <script src="js10/scripts10.js"></script>
-                <script src="js10/curtemp.js"></script>
-                <script src="js10/fiveday.js"></script>
+                <script src="js/scripts.js"></script>
+                <script src="js/curtemp.js"></script>
+                <script src="js/fiveday.js"></script>
             </p>
         </footer>
     </div>

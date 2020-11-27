@@ -138,6 +138,16 @@
         justify-content: right;
     }
 
+    /* -----------------------------  lesson 8 storm report --------------*/
+
+    .lazyload {
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 0.5em;
+    }
+    
+    .lazyload h2:nth-child(1) {
+		grid-column: 1 / span 2;
+    }
 
     /*------------------------------ Contacts-----------------------------*/
    

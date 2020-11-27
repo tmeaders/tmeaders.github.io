@@ -1,0 +1,177 @@
+/******************** All of my the top of my webpage or header css will go below ********************/
+
+/* 64em is also 1028px when basefont is 16px */
+@media only screen and (min-width: 64em) {
+  aside {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    background: radial-gradient(burlywood, brown);
+    border-radius: 10px 10px;
+    width: 75%;
+  }
+
+ #body-content{
+    border: 4px solid brown;
+    width: 51em;
+    margin: auto;
+    border-radius: 10px 10px;
+}
+
+.motto{
+    margin-left: 4em;
+}
+
+  header {
+    display: grid;
+    grid-template-columns: 6fr;
+    grid-template-rows: 100px;
+    align-items: center;
+    justify-content: center;
+    background-color: brown;
+    color: white;
+    width: 52em;
+    border-radius: 0;
+  }
+
+  .headericon {
+    float: left;
+    height: 11em;
+    margin-left: -1em;
+    margin-top: 3em;
+  }
+
+  header h1 {
+    font-size: 4rem;
+    margin-left: 1.75em;
+    line-height: 1px;
+    font-family: "Carter One", cursive;
+    color: white;
+    display: block;
+    margin-top: -0.5em;
+     }
+
+  header h2 {
+    font-size: 2rem;
+    text-align: center;
+    line-height: 1px;
+    font-family: "Lato", cursive;
+    color: white;
+    padding-bottom: 1em;
+  }
+
+  .navigation {
+    display: flex;
+  }
+
+  .navigation li:first-child {
+    display: none;
+  }
+
+  .navigation li a {
+    display: block;
+    font-size: 1.5em;
+  }
+
+  /* ****************************** this area is for images *************************************************** */
+  .banner-img {
+   max-width: 100em;
+   margin-left: -.5em;
+  }
+
+  /******************** All of my the middle of my webpage or main css will go below *******************/
+  
+  /* ----- five day forecast -------*/
+
+  #forecast1, #forecast2, #forecast3, #forecast4, #forecast5{
+    margin-left: 2.5em;
+}
+
+.forecast {
+    font-size: 18px;
+    margin-left: -1em;
+    margin-right: .5em;
+    margin-bottom: 0.25em;
+    height: 12.25em;
+    padding-top: 1em;
+    background: radial-gradient(cornsilk, cadetblue);
+    border: solid;
+    border-color: cadetblue;
+  }
+
+  table,
+  td,
+  th {
+    border: 3px solid brown;
+    margin-left: .85em;
+    width: 42em;
+    background: radial-gradient(cornsilk, cadetblue);
+  }
+
+ #icon1, #icon2, #icon3, #icon4, #icon5{
+      margin-left: 1.25em;
+      height: 4em;
+  }
+
+table{
+    align-content: left;
+    height: 1em;
+}
+  
+ /*--------------- news and image section  -------------*/
+.article {
+    margin-top: 9em;
+    height: 28em;
+    margin-left: -1.42em;
+    width: 62.71em;
+}
+
+  .news-para {
+    font-size: 1.5em;
+     }
+
+  .news-img{
+      height: 25em;
+  }
+ /* ------ Contacts --------- */
+
+  #contacts-container{
+    margin-top: 14.5em;
+    margin-bottom: .5em;
+    margin-left: -1.35em;
+    width: 62.75em;
+  
+  }
+
+  /*  -------------- lesson 8 storm report  ---------------------------  */
+
+  form fieldset {
+    margin-left: 1em;
+    height: 10em;
+}
+
+
+form label.sbs{
+    padding: .4rem 0;
+}
+
+form input.submitBtn{
+    margin-left: 10em;
+}
+
+
+  /******************** All of my the bottom of my webpage or footer css will go below *****************/
+
+  footer {
+    width: 65em;
+    margin: 0;
+    background-color: brown;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    padding: 1px;
+    border-radius: 0;
+  }
+
+  /*end large */
+}

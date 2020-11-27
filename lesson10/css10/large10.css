@@ -18,6 +18,10 @@
     border-radius: 10px 10px;
 }
 
+.motto{
+    margin-left: 4em;
+}
+
   header {
     display: grid;
     grid-template-columns: 6fr;
@@ -33,20 +37,19 @@
   .headericon {
     float: left;
     height: 11em;
-    margin-left: 0em;
+    margin-left: -1em;
     margin-top: 3em;
   }
 
   header h1 {
     font-size: 4rem;
-    text-align: center;
+    margin-left: 1.75em;
     line-height: 1px;
     font-family: "Carter One", cursive;
     color: white;
     display: block;
     margin-top: -0.5em;
-    margin-left: -1em;
-  }
+     }
 
   header h2 {
     font-size: 2rem;
@@ -67,7 +70,7 @@
 
   .navigation li a {
     display: block;
-    font-size: 2em;
+    font-size: 1.5em;
   }
 
   /* ****************************** this area is for images *************************************************** */
@@ -118,12 +121,14 @@ table{
  /*--------------- news and image section  -------------*/
 .article {
     margin-top: 9em;
-    height: 30em;
+    height: 28em;
+    margin-left: -1.42em;
+    width: 62.71em;
 }
 
   .news-para {
     font-size: 1.5em;
-  }
+     }
 
   .news-img{
       height: 25em;
@@ -131,23 +136,23 @@ table{
  /* ------ Contacts --------- */
 
   #contacts-container{
-    margin-top: 15em;
-    margin-bottom: 1em;
+    margin-top: 14.5em;
+    margin-bottom: .5em;
+    margin-left: -1.35em;
+    width: 62.75em;
   
   }
   /******************** All of my the bottom of my webpage or footer css will go below *****************/
 
   footer {
-    /*margin-left: .6rem;*/
-    /*margin-right: .6rem;*/
-    max-width: 75%;
-    margin-left: 9em;
+    width: 65em;
+    margin: 0;
     background-color: brown;
     text-align: center;
     color: white;
     font-size: 25px;
     padding: 1px;
-    border-radius: 10px 10px;
+    border-radius: 0;
   }
 
   /*end large */

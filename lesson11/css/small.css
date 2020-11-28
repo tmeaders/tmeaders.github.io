@@ -136,7 +136,7 @@ main {
     display: grid;
     grid-template-rows: 5em 1fr 8em 23em;
     font-size: 0.8rem;
-    background-color: cornsilk;
+    
 }
 
 .forecast {
@@ -173,7 +173,7 @@ form fieldset {
     border-radius: 10px;
     padding: .5rem 2%;
     margin-left: 0;
-}
+    }
 
 form lengend {
     color: #445ba9;
@@ -230,8 +230,8 @@ form label.top input:required:valid{
 
 /* ************* this area is to be used for all images ******************************************* */
 
-.banner-img {
-    max-width: 100%;
+.preston-img {
+   width: 100%;
 
 }
 
@@ -317,6 +317,43 @@ form label.top input:required:valid{
     font-family: 'Lato', sans-serif;
     font-size: 1.25em;
 
+}
+
+/*  -------------------- lesson 7 lazy load  ------------------  */
+
+.lazyload {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-content: center;
+    grid-gap: .25em;
+
+}
+
+.lazyload img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+    width: 100%;
+    height: 16em;
+}
+
+.lazyload img[data-src] {
+    filter: blur(0.2em);
+}
+
+.lazyload figure {
+    text-align: center;
+    margin: 0;
+}
+
+.lazyload figcaption {
+    background-color: cadetblue;
+    padding: 1em;
+    margin: 0;
+}
+
+.lazyload h2 {
+    text-align: center;
 }
 
 /******************** All of my the bottom of my webpage or footer css will go below *****************/

@@ -109,6 +109,11 @@ li {
     color: white;
 }
 
+nav ul li.active a{
+    color: black;
+    background-color: burlywood;
+}
+
 .navigation a:hover {
     color: black;
     background-color: burlywood;
@@ -124,18 +129,19 @@ li {
 }
 
 body {
-    background-color: cornsilk;
+    background: radial-gradient(brown,cornsilk);
     font-family: 'Lato', sans-serif;
     display: grid;
 }
 
 
 main {
-    max-width: 767px;
+    max-width: 100%;
     margin: 0 auto;
     display: grid;
     grid-template-rows: 5em 1fr 8em 23em;
     font-size: 0.8rem;
+    background-color: cornsilk;
     
 }
 

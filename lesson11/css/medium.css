@@ -138,7 +138,10 @@
         justify-content: right;
     }
 
-/* -----------------------------  lesson 7 lazy load --------------*/
+    /* -----------------------------  lesson 6 gallery --------------*/
+    
+
+    /* -----------------------------  lesson 7 lazy load --------------*/
 
     .lazyload {
         grid-template-columns: 1fr 1fr;

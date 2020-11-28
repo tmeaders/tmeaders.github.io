@@ -5,50 +5,37 @@
 
     header {
         width: 84.5em;
-        height: 13em;
+        height: 15em;
         padding-bottom: 1em;
-        border-radius: 10px 10px;
+        border-radius: 0;
+        
     }
 
     .headericon {
         float: left;
         height: 11em;
-        margin-left: .0em;
+        margin-left: 12em;
         margin-top: 3em;
-    }
+      }
 
     header h1 {
         font-size: 4rem;
-        text-align: center;
+        margin-left: 5.5em;
         line-height: 1px;
         font-family: 'Carter One', cursive;
         color: white;
         display: block;
         margin-top: -.5em;
-        margin-left: -.25em;
+       
 
     }
 
-    header h2 {
-        font-size: 4em;
-        text-align: center;
-        line-height: 1px;
-        font-family: 'Lato', cursive;
-        color: white;
-        padding-bottom: 1em;
-        ;
-    }
-h2{
-    margin:0;
-   text-align: center;
-    font-size: 2em;
-    padding: 1em;
-  
-}
-  h2.motto {
+   
+
+  .motto {
         font-size: 2em;
         margin: 0;
-        background-color: inherit;
+       
     }
 
     nav {
@@ -61,8 +48,7 @@ h2{
     .navigation {
         display: flex;
         margin-left: 4em;
-
-    }
+        }
 
     .navigation li {
         display: block;
@@ -75,8 +61,11 @@ h2{
     }
 
     .navigation li a {
-        text-align: center;
-        white-space: nowrap;
+        display: block;
+    font-size: 2rem;
+        border: solid;
+    border-color: cornsilk;
+    margin-top: .25em;
     }
 
     .navigation li a:hover {
@@ -90,12 +79,21 @@ h2{
         
     }
 
+  h2.galhead{
+  font-size: 3em;
+    }
     /* ****************************** this area is for images *************************************************** */
 
     .lazyload {
         grid-template-columns: 1fr 1fr 1fr;
         grid-gap: .5em;
         padding-top: .5em;
+        padding-left: 8px;
+        padding-right: 8px;
+        width:83em;
+        margin-left: .65em;
+        border: solid;
+        border-color: brown;
 
     }
 
@@ -119,7 +117,11 @@ h2{
 
     main {
         width: 84.35em;
+        height: 86.75em;
         justify-content: center;
+        margin-left: .015em;
+        
+        
     }
 
 
@@ -127,12 +129,18 @@ h2{
 #d-elements{
     background: cadetblue;
     height: 21em;
-    margin-top: 6em;
+    margin-top: .5em;
+    margin-bottom: .5em;
+    margin-left: .58em;
+    width: 83.09em;
+    border: solid;
+    border-color: brown;
 }
 #contacts-container {
     display: inline-block;
     line-height: 1em;
     background: cadetblue;
+   
 }
 
 .smedia {
@@ -180,7 +188,7 @@ h2{
         color: white;
         font-size: 25px;
         padding: 1px;
-        border-radius: 10px 10px;
+        border-radius: 0;
     }
 
     /*end large */

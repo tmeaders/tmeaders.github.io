@@ -23,7 +23,6 @@
 }
 
   header {
-    display: grid;
     grid-template-columns: 6fr;
     grid-template-rows: 100px;
     align-items: center;
@@ -70,28 +69,30 @@
 
   .navigation li a {
     display: block;
-    font-size: 1.5em;
+    font-size: 2em;
+    border: solid;
+    border-color: cornsilk;
   }
 
   /* ****************************** this area is for images *************************************************** */
   .preston-img {
   width: 98em;
-   margin-left: -18.25em;
+   margin-left: 1.5em;
+   border: solid;
+   border-color: brown;
   }
 
   #atmospheric {
     bottom: 13em;
-    margin-left: -15em;
+    margin-left: 1.5em;
   }
   /*  ---------------- lesson 7 lazy load --------------  */
 
-  .lazyload {
-    
+  .lazyload figure img{
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: .5em;
     padding-top: .5em;
-  
-}
+  }
 
 .lazyload h2:nth-child(1) {
     grid-column: 1 / span 3;
@@ -101,17 +102,14 @@
     box-shadow: 0px 0px 11px 4px #999999;
 }
 
-.lazyload img {
-  width: 20em;
-  
-}
+
 
   /******************** All of my the middle of my webpage or main css will go below *******************/
   
   /* ----- five day forecast -------*/
 
 .pi-head{
-  margin-left: -5em;;
+  margin-left: -1em;;
   
 }
 
@@ -121,15 +119,16 @@
 
 .forecast {
     font-size: 18px;
-    margin-left: -13.55em;
+    margin-left: .5em;
     margin-right: -.5em;
     margin-bottom: 0.25em;
+    margin-top: .5em;
     width: 69.75em;
     height: 12.25em;
     padding-top: 1em;
     background: radial-gradient(cornsilk, cadetblue);
     border: solid;
-    border-color: cadetblue;
+    border-color:  brown;
   }
 
   table,
@@ -153,10 +152,12 @@ table{
   
  /*--------------- news and image section  -------------*/
 .article {
-    margin-top: 9em;
+    margin-top: 10.75em;
     height: 28em;
-    margin-left: -19em;
-    width: 98em;
+    margin-left: .68em;
+    width: 98.13em;
+    border: solid;
+    border-color: brown;
 }
 
   .news-para {
@@ -169,14 +170,18 @@ table{
  /* ------ Contacts --------- */
 
   #contacts-container{
-    margin-top: 14.5em;
+    margin-top: 16.6em;
     margin-bottom: .5em;
-    margin-left: -19em;
-    width: 98em;
+    margin-left: .65em;
+    width: 98.13em;
+    border: solid;
+    border-color: brown;
   
   }
 
-  /*  -------------- lesson 8 storm report  ---------------------------  */
+
+
+   /*  -------------- lesson 8 storm report  ---------------------------  */
   form fieldset {
     margin-left: 1em;
     height: 33em;

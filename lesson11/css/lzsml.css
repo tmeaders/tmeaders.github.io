@@ -43,7 +43,7 @@ header {
 
 header h1 {
     font-size: 1.5em;
-    text-align: center;
+ 
     font-family: 'Carter One', cursive;
     color: white;
     display: block;
@@ -112,18 +112,27 @@ li {
     display: block;
 }
 
+nav ul li.active a{
+    color: black;
+    background-color: burlywood;
+}
 /******************** All of my the middle of my webpage or main css will go below *******************/
 
 body {
     background-color: cornsilk;
     font-family: 'Lato', sans-serif;
-
+    border: solid;
+    border-color: brown;
+    border-radius: 10px 10px;
+    background: radial-gradient(brown,cornsilk);
+    width: 84.75em;
 }
 
 
 main {
     font-size: 1em;
     background-color: cornsilk;
+    ;
 }
 
 

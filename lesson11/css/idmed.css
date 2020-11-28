@@ -1,0 +1,173 @@
+/******************** All of my the top of my webpage or header css will go below ********************/
+
+/* 35em is also 560px when basefont is 16px */
+@media only screen and (min-width: 32.5em) {
+   
+    header {
+        width: 58em;
+        border-radius: 10px 10px;
+        margin: 0 auto;
+    }
+
+    
+    .headericon {
+        float: left;
+        height: 11em;
+        margin-left: 1em;
+        margin-top: 3em;
+        margin-bottom: 0;
+    }
+
+    header h1 {
+        font-size: 3rem;
+        text-align: center;
+        line-height: 1px;
+        font-family: 'Carter One', cursive;
+        color: white;
+        display: block;
+        margin-top: -.5em;
+        margin-left: 2.25em;
+    }
+
+    header h2 {
+        font-size: 2rem;
+        text-align: center;
+        line-height: 1px;
+        font-family: 'Lato', cursive;
+        color: white;
+        padding-bottom: 1em;
+        ;
+    }
+
+    .motto {
+        margin-left: 4.5em;
+        margin-top: 1rem;
+        font-size: 1.5em;
+    }
+
+
+    .navigation {
+        display: flex;
+        margin: 1em;
+    }
+
+    .navigation li:first-child {
+        display: none;
+    }
+
+    .navigation li a {
+        display: block;
+        font-size: 1.25rem;
+    }
+
+    .navigation li {
+        display: block;
+    }
+
+    h2 {
+        text-align: center;
+        padding: .5rem;
+        font-family: 'Carter One', sans-serif;
+        margin-left: 3.5em;
+    }
+
+    h3.pi-head{
+        font-size: 3rem;
+        margin-left: 15.5rem;
+    }
+
+    /* ****************************** this area is for images *************************************************** */
+    
+
+    /******************** All of my the middle of my webpage or main css will go below *******************/
+    #body-content{
+        vertical-align: baseline;
+    }
+
+ /*home page styling */
+
+ .places{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    margin-left: -4.15rem;
+    width: 56.5rem;
+
+}
+.townPic{
+    max-width: 60%;
+    height: 30em;
+}
+
+.places:nth-child(odd){
+    flex-direction: row-reverse;
+}
+
+
+h4{
+    text-align:center;
+font-size: 3rem;
+}
+
+h5{
+    font-size: 2rem;
+}
+
+.info{
+    padding:10px;
+    text-align: center;
+  
+}
+
+    /*------------------------------ Contacts-----------------------------*/
+    #contacts-container {
+        display: inline-block;
+        line-height: 1em;
+        background: cadetblue;
+        height: 22em;
+        width: 70.75em;
+        margin-bottom: 1em;
+        margin-left: -5.25em;
+           
+    }
+    
+    #s-elements .preston-map {
+        float: right;
+        width: 30em;
+        height: 20em;
+        margin-left: 25px;
+
+    }
+
+    #s-elements .info {
+        margin: 1.25em;
+        margin-left: -11em;
+    }
+
+    #s-elements p {
+        margin: 1.25em;
+    }
+
+    .smedia {
+        margin-left: 2em;
+    }
+
+    /******************** All of my the bottom of my webpage or footer css will go below *****************/
+
+    footer {
+        width: 36.5em;
+        margin-left: 2em;
+        margin-top: -4.25em;
+        background-color: brown;
+        text-align: center;
+        color: white;
+        font-size: 25px;
+        padding: 1px;
+        border-radius: 10px 10px;
+    }
+
+    /*end medium */
+}

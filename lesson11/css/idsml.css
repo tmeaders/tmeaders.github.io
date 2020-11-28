@@ -1,0 +1,258 @@
+/******************** All of my the top of my webpage or header css will go below ********************/
+
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+
+h3 {
+    margin: 0;
+    padding: .5rem;
+    font-family: 'Carter One', sans-serif;
+    margin: center;
+}
+
+
+
+header {
+    display: grid;
+    grid-template-columns: 6fr;
+    grid-template-rows: 100px;
+    align-items: center;
+    justify-content: center;
+    background-color: brown;
+    color: white;
+    width: 39rem;
+}
+
+
+.headericon {
+    height: 10em;
+    margin-bottom: 1rem;
+    margin-top: 2.4em;
+    margin-left: 13rem;
+}
+
+header h1 {
+    font-size: 2.5em;
+    text-align: center;
+    font-family: 'Carter One', cursive;
+    color: white;
+    display: block;
+    margin-top: 1rem;
+    margin-right: .25rem;
+
+}
+
+.motto {
+    padding: .5rem;
+    font-family: 'Carter One', sans-serif;
+    margin-left: 1rem;
+    margin-top: -1rem;
+    font-size: 1.75rem;
+}
+
+header h2 {
+    font-size: .75rem;
+    margin-left: 1.5rem;
+    text-align: center;
+    font-family: 'Lato', cursive;
+    color: white;
+}
+
+nav {
+    margin: 0 auto;
+}
+
+.navigation {
+    list-style: none;
+    padding: 0;
+    }
+
+
+
+.navigation ul {
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li {
+    display: none;
+}
+
+.navigation a {
+    display: block;
+    font-size: x-large;
+    padding: 0.75rem;
+    text-align: left;
+    text-decoration: none;
+    color: white;
+}
+
+.navigation a:hover {
+    color: black;
+    background-color: burlywood;
+}
+
+.responsive li {
+    display: block;
+}
+
+/******************** All of my the middle of my webpage or main css will go below *******************/
+
+body {
+    background-color: cornsilk;
+    font-family: 'Lato', sans-serif;
+    display: grid;
+}
+
+
+main {
+    max-width: 767px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows: 5em 1fr 8em 23em;
+    font-size: 0.8rem;
+    background-color: cornsilk;
+}
+
+h3.pi-head {
+    font-size: 3rem;
+    margin-left: 12rem;
+}
+
+/*home page styling */
+.body-content {
+    justify-content: center;
+    padding: 30px;
+}
+
+.places {
+    display: block;
+    border: 2px solid #023c19;
+    padding: 20px;
+    margin: 10px;
+    margin-left: -.15rem;
+    width: 39rem;
+    background-color: cadetblue;
+
+}
+
+.info {
+    text-align: center;
+    font-size: 1.75rem;
+}
+
+
+h4 {
+    font-size: 2.75rem;
+    font-family: 'Lato', sans-serif;
+    margin-top: -.05em;
+
+}
+
+h5 {
+    font-size: 1.75rem;
+    font-family: 'lato', sans-serif;
+    margin-top: -1em;
+}
+
+.townPic {
+    width: 36.5rem;
+
+}
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+
+
+/*-------------------------------------Contacts-------------------------*/
+
+#contacts-container {
+    display: inline-block;
+    line-height: 1em;
+    height: 36.5em;
+    width: 39rem;
+    margin-bottom: 1em;
+    margin-left: -.05em;
+
+    background: radial-gradient(cornsilk, cadetblue);
+}
+
+.smedia {
+    padding: .5em;
+    width: 2.75rem;
+    height: 2.75rem;
+}
+
+#s-elements .preston-map {
+    width: 37.25rem;
+    height: 17rem;
+    margin-right: 25px;
+}
+
+
+
+#s-elements {
+    padding: 1em;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+#s-elements .info {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5em;
+    margin: 0;
+    margin-left: -25rem;
+}
+
+#s-elements p {
+    padding-left: 1em;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.25em;
+
+}
+
+/******************** All of my the bottom of my webpage or footer css will go below *****************/
+
+footer {
+    background-color: brown;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    padding: 1px;
+    width: 39rem;
+    height: 6em;
+    margin-left: -.05rem;
+    margin-top: 4.5em;
+}
+
+footer a {
+    color: yellow;
+}
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/*end of small */

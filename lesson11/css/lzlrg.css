@@ -2,194 +2,175 @@
 
 /* 64em is also 1028px when basefont is 16px */
 @media only screen and (min-width: 64em) {
+  header {
+    width: 84.5em;
+    height: 15em;
+    padding-bottom: 1em;
+    border-radius: 0;
+  }
 
-    header {
-        width: 84.5em;
-        height: 15em;
-        padding-bottom: 1em;
-        border-radius: 0;
-        
-    }
+  .headericon {
+    float: left;
+    height: 11em;
+    margin-left: 12em;
+    margin-top: 3em;
+  }
 
-    .headericon {
-        float: left;
-        height: 11em;
-        margin-left: 12em;
-        margin-top: 3em;
-      }
-
-    header h1 {
-        font-size: 4rem;
-        margin-left: 5.5em;
-        line-height: 1px;
-        font-family: 'Carter One', cursive;
-        color: white;
-        display: block;
-        margin-top: -.5em;
-       
-
-    }
-
-   
+  header h1 {
+    font-size: 4rem;
+    margin-left: 5.5em;
+    line-height: 1px;
+    font-family: "Carter One", cursive;
+    color: white;
+    display: block;
+    margin-top: -0.5em;
+  }
 
   .motto {
-        font-size: 2em;
-        margin: 0;
-       
-    }
+    font-size: 2em;
+    margin: 0;
+  }
 
-    nav {
-        margin: 0 auto;
-        max-width: 100%;
-        padding: 0 10em;
-    }
+  nav {
+    margin: 0 auto;
+    max-width: 100%;
+    padding: 0 10em;
+  }
 
+  .navigation {
+    display: flex;
+    margin-left: 4em;
+  }
 
-    .navigation {
-        display: flex;
-        margin-left: 4em;
-        }
+  .navigation li {
+    display: block;
+    flex: 1 1 auto;
+    font-size: 2em;
+  }
 
-    .navigation li {
-        display: block;
-        flex: 1 1 auto;
-        font-size: 2em;
-    }
+  .navigation li:first-child {
+    display: none;
+  }
 
-    .navigation li:first-child {
-        display: none;
-    }
-
-    .navigation li a {
-        display: block;
+  .navigation li a {
+    display: block;
     font-size: 2rem;
-        border: solid;
+    border: solid;
     border-color: cornsilk;
-    margin-top: .25em;
-    }
+    margin-top: 0.25em;
+  }
 
-    .navigation li a:hover {
-        color: black;
-        background:whitesmoke;
-    }
+  .navigation li a:hover {
+    color: black;
+    background: whitesmoke;
+  }
 
-   nav ul li a.active{
-        color: black;
-        background-color: goldenrod;
-        
-    }
+  nav ul li a.active {
+    color: black;
+    background-color: goldenrod;
+  }
 
-  h2.galhead{
-  font-size: 3em;
-    }
-    /* ****************************** this area is for images *************************************************** */
+  h2.galhead {
+    font-size: 3em;
+  }
+  /* ****************************** this area is for images *************************************************** */
 
-    .lazyload {
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-gap: .5em;
-        padding-top: .5em;
-        padding-left: 8px;
-        padding-right: 8px;
-        width:83em;
-        margin-left: .65em;
-        border: solid;
-        border-color: brown;
+  .lazyload {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 0.5em;
+    padding-top: 0.5em;
+    padding-left: 8px;
+    padding-right: 8px;
+    width: 83em;
+    margin-left: 0.65em;
+    border: solid;
+    border-color: brown;
+  }
 
-    }
+  .lazyload h2:nth-child(1) {
+    grid-column: 1 / span 3;
+  }
 
-    .lazyload h2:nth-child(1) {
-        grid-column: 1 / span 3;
-    }
+  .lazyload figure:hover {
+    box-shadow: 0px 0px 11px 4px #999999;
+  }
 
-    .lazyload figure:hover {
-        box-shadow: 0px 0px 11px 4px #999999;
-    }
+  /******************** All of my the middle of my webpage or main css will go below *******************/
+  body {
+    max-width: 90em;
+    margin: 8.5em;
+    margin-left: 17em;
+    margin-top: 0;
+  }
 
+  main {
+    width: 84.35em;
+    height: 86.75em;
+    justify-content: center;
+    margin-left: 0.015em;
+  }
 
-
-    /******************** All of my the middle of my webpage or main css will go below *******************/
-    body {
-        max-width: 90em;
-        margin: 8.5em;
-        margin-left: 17em;
-        margin-top: 0;
-    }
-
-    main {
-        width: 84.35em;
-        height: 86.75em;
-        justify-content: center;
-        margin-left: .015em;
-        
-        
-    }
-
-
-    /*-------------------------------------Contacts-------------------------*/
-#d-elements{
+  /*-------------------------------------Contacts-------------------------*/
+  #d-elements {
     background: cadetblue;
     height: 21em;
-    margin-top: .5em;
-    margin-bottom: .5em;
-    margin-left: .58em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 0.58em;
     width: 83.09em;
     border: solid;
     border-color: brown;
-}
-#contacts-container {
+  }
+  #contacts-container {
     display: inline-block;
     line-height: 1em;
     background: cadetblue;
-   
-}
+  }
 
-.smedia {
-    padding: .5em;
+  .smedia {
+    padding: 0.5em;
     width: 3em;
     height: 3em;
-}
+  }
 
-#s-elements .preston-map {
+  #s-elements .preston-map {
     float: right;
     width: 40em;
     height: 20em;
     margin: 0;
     padding-bottom: 1em;
     padding-left: 12em;
-}
+  }
 
-
-
-#s-elements {
+  #s-elements {
     padding: 1em;
     max-width: 960px;
     margin: 0 auto;
-}
+  }
 
-#s-elements .info {
-    font-family: 'Lato', sans-serif;
+  #s-elements .info {
+    font-family: "Lato", sans-serif;
     font-size: 1.5em;
-}
+  }
 
-#s-elements p {
+  #s-elements p {
     padding-left: 1em;
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     font-size: 1.25em;
+  }
 
-}
+  /******************** All of my the bottom of my webpage or footer css will go below *****************/
 
-    /******************** All of my the bottom of my webpage or footer css will go below *****************/
+  footer {
+    width: 54em;
+    margin-left: 0;
+    background-color: brown;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    padding: 1px;
+    border-radius: 0;
+  }
 
-    footer {
-        width: 54em;
-        margin-left: 0;
-        background-color: brown;
-        text-align: center;
-        color: white;
-        font-size: 25px;
-        padding: 1px;
-        border-radius: 0;
-    }
-
-    /*end large */
+  /*end large */
 }

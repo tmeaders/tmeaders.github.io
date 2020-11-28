@@ -106,6 +106,11 @@ li {
     color: white;
 }
 
+nav ul li.active a{
+    color: black;
+    background-color: burlywood;
+}
+
 .navigation a:hover {
     color: black;
     background-color: burlywood;
@@ -118,19 +123,24 @@ li {
 /******************** All of my the middle of my webpage or main css will go below *******************/
 
 body {
-    background-color: cornsilk;
+    background: radial-gradient(brown,cornsilk);
     font-family: 'Lato', sans-serif;
     display: grid;
 }
 
+#body-conent{
+    width: 100em;
+}
 
 main {
-    max-width: 767px;
-    margin: 0 auto;
+    width: 100%;
+    margin-left: 0 auto;
     display: grid;
     grid-template-rows: 5em 1fr 8em 23em;
     font-size: 0.8rem;
     background-color: cornsilk;
+    border: solid;
+    border-color: brown;
 }
 
 h3.pi-head {

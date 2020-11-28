@@ -1,8 +1,8 @@
 /* --------------- Usually this is called endpoint but we are using apiURL in this exercise ----------*/
-const apiURL =
+const weathreURL =
   "http://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&appid=466dca7cca93940a33882268fd25bd99";
 
-fetch(apiURL)
+fetch(weatherURL)
   .then((response) => response.json())
   .then((jsObject) => {
     console.log(jsObject);

@@ -28,7 +28,7 @@ function toggleMenu() {
 
 
 /*   lesson 5     ----  Saturday pancake banner -------- */
-
+// jshint esversion: 6
 let show = new Date();
 
 if (show.getDay() == 5) {

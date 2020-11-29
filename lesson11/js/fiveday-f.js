@@ -1,6 +1,6 @@
 const fivedayURL =
   "https://api.openweathermap.org/data/2.5/forecast?id=5585010&units=imperial&appid=466dca7cca93940a33882268fd25bd99";
-fetch(fivedayURL)
+fetch(fivedayURL) 
   .then((response) => response.json())
   .then((jsObject) => {
     /*

@@ -139,6 +139,8 @@ main {
   background-color: cornsilk;
 }
 
+/*  -------------------------  Five day forecast  ---------------  */
+
 .forecast {
   /*display: grid;
     grid-template-columns: repeat(3, 1fr);*/
@@ -152,30 +154,40 @@ main {
   justify-content: right;
 }
 
+/*  ------------------------  Town articles and news  ---------------------  */
+
 .article {
   display: inline-block;
   /*grid-template-columns: repeat(2, 1fr);*/
   background: radial-gradient(cornsilk, cadetblue);
 }
 
+.news-img {
+  max-width: 150em;
+  float: right;
+  height: 15em;
+  margin-top: 25px;
+  margin-right: 20px;
+}
+
 .news-para {
   font-size: 20px;
   padding-left: 20px;
-  margin-left: 2.5em;
+  margin-left: 0.005vw;
 }
 
 .news-head {
   font-size: 2em;
-  margin-left: 2.58em;
+  margin-left: 0.5vw;
 }
-/*  ------------------------- Article section ----------------------  */
+/*  ------------------------- Article images section ----------------------  */
 .evtpic {
   float: right;
   margin: 1em;
   height: 25em;
 }
 
-/*  ----------------------  Thank you report  -----------------------  */
+/*  ----------------------  Thank you storm report  -----------------------  */
 #report {
   border: 3px solid brown;
   width: 50em;
@@ -193,7 +205,7 @@ main {
   font-size: 2em;
 }
 
-/*  ----------------------  Town events  -----------------------  */
+/*  ----------------------  Town upcoming events  -----------------------  */
 
 .twnevt {
   border: 3px solid brown;
@@ -205,7 +217,6 @@ main {
   font-size: 2em;
   width: 48em;
   background: radial-gradient(cornsilk, cadetblue);
-
   margin-left: 0.42em;
   margin-bottom: 0.15em;
 }
@@ -215,7 +226,7 @@ main {
   margin-left: -1em;
 }
 
-/*------------------------------ Form Styling -----------------------*/
+/*------------------------------ Storm report form Styling -----------------------*/
 
 form fieldset {
   margin: 2rem 0;
@@ -289,12 +300,10 @@ form label.top input:required:valid {
   width: 100%;
 }
 
-.news-img {
-  max-width: 150em;
-  float: right;
-  height: 15em;
-  margin-top: 25px;
-  margin-right: 20px;
+.fh-img {
+  width: 64.75vw;
+  border: 3px solid brown;
+  margin-left: 1vw;
 }
 
 #overlay {
@@ -302,10 +311,66 @@ form label.top input:required:valid {
   right: 10px;
 }
 
+#fh-atmospheric {
+  display: block;
+  bottom: 32.25vh;
+  align-items: end;
+  box-shadow: 5px 5px 30px;
+  background-color: #222629;
+  position: absolute;
+  text-align: center;
+  font-size: 1em;
+  margin-left: 1vw;
+}
+
+#fh-atmospheric h2.weatherhead {
+  margin-left: 12px;
+}
+
+#fh-atmospheric,
+.daily-sum {
+  padding: 0.5em;
+  border: 1px solid goldenrod;
+  background: radial-gradient(burlywood, brown);
+  left: 20px;
+  height: 15em;
+  opacity: 0.75;
+  font-size: 15px;
+  color: black;
+}
+
+#ss-atmospheric {
+    display: block;
+    margin-left: 1vw;
+    bottom: 27vh;
+    align-items: end;
+    box-shadow: 5px 5px 30px;
+    background-color: #222629;
+    position: absolute;
+    text-align: center;
+    font-size: 1em;
+  }
+  
+  #ss-atmospheric h2.weatherhead {
+    margin-left: 12px;
+  }
+  
+  #ss-atmospheric,
+  .daily-sum {
+    padding: 0.5em;
+    border: 1px solid goldenrod;
+    background: radial-gradient(burlywood, brown);
+    left: 20px;
+    height: 15em;
+    opacity: 0.75;
+    font-size: 15px;
+    color: black;
+  }
+
 #atmospheric {
   display: block;
-  left: 20px;
-  bottom: 290px;
+  magin-left: .5vw;
+  bottom: 25vh;
   align-items: end;
   box-shadow: 5px 5px 30px;
   background-color: #222629;

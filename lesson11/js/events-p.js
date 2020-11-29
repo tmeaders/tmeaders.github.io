@@ -9,7 +9,7 @@ fetch(requestURL)
 
         const towns = jsonObject['towns'];
         for (let i = 0; i < jsonObject.towns.length; i++) {
-            if (towns[i].name == 'Soda Springs') {
+            if (towns[i].name == 'Preston') {
                 let townnames = jsonObject.towns[i].events;
                 townnames.innerHTML = " ";
                 let twnevt = document.createElement('Section');

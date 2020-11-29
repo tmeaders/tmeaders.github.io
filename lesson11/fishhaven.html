@@ -43,7 +43,12 @@
             <h2 class="pi-head">fish Haven Idaho</h2>
             <div id="overlay">
                 <div >
-                    <img class="preston-img" src="images/preston-homepage.jpg" alt="mountains" />
+                    <picture>
+                        <source media="(max-width: 400px)" srcset="images/fh-400.jpg">
+                        <source media="(max-width: 600px)" srcset="images/fh-600.jpg">
+                        <source media="(min-width: 601px)" srcset="images/fh-960.jpg">
+                       <img class="preston-img" src="images/ban-fishhaven.jpg" alt="mountains" loading="lazy"/>
+                    </picture>
                 </div>
                 <div id="atmospheric">
                     <h2 class="weatherhead"><u>Weather Summary</u></h2>
@@ -89,12 +94,22 @@
                 </table>
             </section>
             <div class="article">
-                <img class="news-img" src="images/valley_1.jpg" alt="valleyview" />
-                <p class="news-para">
-                    Lorem ipsum dolor sit amet,consectetur adipiscing elit. Nulla
-                    consectetur justo eu nunc ultricies, at bibendum dolor volutpat.
-                    Aliquam ornare lectus eget libero pretium, in cursus nulla
-                    consectetur. Morbi eu condimentum urna.
+                <picture>
+                    <source media="(max-width: 200px)" srcset="images/fh-article200.jpg">
+                    <source media="(min-width: 201px)" srcset="images/fh-article400.jpg">
+                    <img  class="evtpic"src="images/fh-article480.jpg" alt="Preston Article Photo" loading="lazy" >
+                  </picture>
+                  <h3 class="news-head">Tenkara Fly-fishing</h3>
+                <p class="news-para"> Sources: Fish Haven, ID Chamber of Commerce</p>
+                <p class="news-para">Tenkara, which translates as “fishing from the skies/heavens,” 
+                    is a Japanese angling technique that strips fishing down to its most basic elements:
+                     a rod, a line, and fly. For purists, it is a form of fishing specifically used to 
+                     target trout in Japanese mountain streams. But, on this side of the Pacific, where 
+                     it has been catching on over the last decade or so, it’s less about the target species 
+                     and setting and more about the equipment. Tenkara gear consists of a long, ultralight,
+                      telescoping rod; specialized fly line and tippet; and a simple fly, of which there
+                       are only a handful of varieties. One could make the argument that it’s more like 
+                       cane pole fishing than modern fly fishing, and therein lies its simplicity.
                 </p>
             </div>
             <section class="twnevt">

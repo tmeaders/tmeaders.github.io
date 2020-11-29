@@ -78,6 +78,7 @@
   .preston-img {
   width: 98em;
    margin-left: 1.5em;
+   margin-top: 1em;
    border: solid;
    border-color: brown;
   }
@@ -108,8 +109,9 @@
   
   /* ----- five day forecast -------*/
 
-.pic-head{
-  margin-left: -1em;;
+.pic-head h2{
+  margin-left: -1em;
+  
   
 }
 
@@ -170,7 +172,7 @@ table{
  /* ------ Contacts --------- */
 
   #contacts-container{
-    margin-top: 16.6em;
+    margin-top: .75em;
     margin-bottom: .5em;
     margin-left: .65em;
     width: 98.13em;

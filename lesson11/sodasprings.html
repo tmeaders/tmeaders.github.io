@@ -40,10 +40,15 @@
             </nav>
         </header>
         <main id="main-content">
-            <h2 class="pi-head">Soda Springs Idaho</h2>
+            <h2 class="pic-head">Soda Springs Idaho</h2>
             <div id="overlay">
                 <div >
-                    <img class="preston-img" src="images/preston-homepage.jpg" alt="mountains" />
+                    <picture>
+                        <source media="(max-width: 400px)" srcset="images/ss-400.jpg">
+                        <source media="(max-width: 600px)" srcset="images/ss-600.jpg">
+                        <source media="(min-width: 601px)" srcset="images/ss-960.jpg">
+                       <img class="preston-img" src="images/ban-ss.jpg" alt="mountains" loading="lazy"/>
+                    </picture>
                 </div>
                 <div id="atmospheric">
                     <h2 class="weatherhead"><u>Weather Summary</u></h2>
@@ -89,14 +94,27 @@
                 </table>
             </section>
             <div class="article">
-                <img class="news-img" src="images/valley_1.jpg" alt="valleyview" />
-                <p class="news-para">
-                    Lorem ipsum dolor sit amet,consectetur adipiscing elit. Nulla
-                    consectetur justo eu nunc ultricies, at bibendum dolor volutpat.
-                    Aliquam ornare lectus eget libero pretium, in cursus nulla
-                    consectetur. Morbi eu condimentum urna.
+                <picture>
+                    <source media="(max-width: 200px)" srcset="images/ss-article200.jpg">
+                    <source media="(min-width: 201px)" srcset="images/ss-article400.jpg">
+                    <img  class="evtpic"src="images/ss-article480.jpg" alt="Soda Springs Article Photo" loading="lazy" >
+                  </picture>
+                <h3 class="news-head">Outdoor Family Fun</h3>
+                <p class="news-para"> Sources:Soda Springs, ID Chamber of Commerce</p>
+                <p class="news-para"> Alexander Reservoir is a beautiful area for boating, fishing, swimming 
+                    and a picnic just to enjoy the scenery. Home to rainbow trout, perch, 
+                    channel catfish, blue gill and small mouth bass. Alexander has a good 
+                    selection of fish. Being 4.5 miles long and 1 mile wide it also offers a 
+                    great are for those wanting to get out in a boat. It has two boat access 
+                    ramps with docks conveniently located just off of Hwy 30 and two day use 
+                    areas as well located on the north side of the reservoir. 
                 </p>
             </div>
+            <section class="twnevt">
+                <h2>Town Events</h2>
+                  
+    
+            </section>
             <div id="contacts-container">
                 <div id="d-elements">
                     <section id="s-elements">
@@ -127,6 +145,7 @@
                 <script src="js/scripts.js"></script>
                 <script src="js/curtemp-s.js"></script>
                 <script src="js/fiveday-s.js"></script>
+                <script src="js/events-s.js"></script>
             </p>
         </footer>
     </div>

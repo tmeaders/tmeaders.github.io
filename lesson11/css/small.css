@@ -166,9 +166,62 @@ main {
 
 .news-para {
 
-    font-size: 15px;
+    font-size: 20px;
     padding-left: 20px;
+    margin-left: 2.5em;
+}
+    
+.news-head{
+    font-size: 2em;
+    margin-left: 2.58em;
+}
+/*  ------------------------- Article section ----------------------  */
+.evtpic{
+    float: right;
+    margin: 1em;
+    Height: 25em;
+}
 
+/*  ----------------------  Thank you report  -----------------------  */
+#report{
+    border: 3px solid brown;
+    width: 50em;
+    margin-top: 2em;
+    margin-left: 23em;
+    height: 15em;
+    background-color: cadetblue;
+
+}
+.ack-h{
+    font-size: 4em;
+    margin-left: -.75em;
+}
+.ack-p{
+    margin-left: 14.5em;
+    font-size: 2em;
+}
+
+/*  ----------------------  Town events  -----------------------  */
+
+.twnevt{
+    border: 3px solid brown;
+    margin-top: 16.5em;
+    margin-left: .65em;
+    width: 98.15em;
+}
+.twnevt div{
+    
+    font-size: 2em;
+    width:48em;
+    background: radial-gradient(cornsilk, cadetblue);
+   
+    margin-left: .42em;
+    margin-bottom: .15em;;
+}
+
+.twnevt h2{
+    font-size: 3em;
+    margin-left: -1em;
 }
 
 /*------------------------------ Form Styling -----------------------*/

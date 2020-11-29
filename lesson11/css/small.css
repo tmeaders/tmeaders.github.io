@@ -2,440 +2,425 @@
 
 /* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
 html {
-    -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
 }
 
 /*----------- apply a natural box layout model to all elements --------------*/
 * {
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 aside {
-    display: block;
-    justify-content: center;
-    font-size: 19px;
-    background: radial-gradient(burlywood, brown);
-    padding: 10px;
-    padding-left: 2em;
+  display: block;
+  justify-content: center;
+  font-size: 19px;
+  background: radial-gradient(burlywood, brown);
+  padding: 10px;
+  padding-left: 2em;
 }
 
 h2 {
-    margin: 0;
-    padding: .5rem;
-    font-family: 'Carter One', sans-serif;
-    margin-left: 6em;
+  margin: 0;
+  padding: 0.5rem;
+  font-family: "Carter One", sans-serif;
+  margin-left: 6em;
 }
-
-
 
 header {
-    display: grid;
-    grid-template-columns: 6fr;
-    grid-template-rows: 100px;
-    align-items: center;
-    justify-content: center;
-    background-color: brown;
-    color: white;
-    width: 100%;
+  display: grid;
+  grid-template-columns: 6fr;
+  grid-template-rows: 100px;
+  align-items: center;
+  justify-content: center;
+  background-color: brown;
+  color: white;
+  width: 100%;
 }
 
-
 .headericon {
-    height: 8em;
-    margin-bottom: 0;
-    margin-top: 2em;
-    margin-left: -1em;
+  height: 8em;
+  margin-bottom: 0;
+  margin-top: 2em;
+  margin-left: -1em;
 }
 
 header h1 {
-    font-size: 2.55em;
-    margin-left: -3.5rem;
-    text-align: center;
-    font-family: 'Carter One', cursive;
-    color: white;
-    display: block;
-    margin-top: -1.55em;
-    margin-left: 1.25em;
-
+  font-size: 2.55em;
+  margin-left: -3.5rem;
+  text-align: center;
+  font-family: "Carter One", cursive;
+  color: white;
+  display: block;
+  margin-top: -1.55em;
+  margin-left: 1.25em;
 }
 
 .motto {
-    padding: .5rem;
-    font-family: 'Carter One', sans-serif;
-    margin-left: 7.5em;
+  padding: 0.5rem;
+  font-family: "Carter One", sans-serif;
+  margin-left: 7.5em;
 }
 
 header h3 {
-    font-size: .75rem;
-    margin-left: 1.5rem;
-    text-align: center;
-    font-family: 'Lato', cursive;
-    color: white;
+  font-size: 0.75rem;
+  margin-left: 1.5rem;
+  text-align: center;
+  font-family: "Lato", cursive;
+  color: white;
 }
 
 nav {
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 .navigation {
-    list-style: none;
-    padding: 0;
+  list-style: none;
+  padding: 0;
 }
 
 .navigation ul {
-    margin: 0;
+  margin: 0;
 }
 
 li {
-    list-style: none;
+  list-style: none;
 }
 
 .navigation li:first-child {
-    display: block;
+  display: block;
 }
 
 .navigation li {
-    display: none;
+  display: none;
 }
 
 .navigation a {
-    display: block;
-    padding: 0.75rem;
-    text-align: left;
-    text-decoration: none;
-    color: white;
+  display: block;
+  padding: 0.75rem;
+  text-align: left;
+  text-decoration: none;
+  color: white;
 }
 
-nav ul li.active a{
-    color: black;
-    background-color: burlywood;
+nav ul li.active a {
+  color: black;
+  background-color: burlywood;
 }
 
 .navigation a:hover {
-    color: black;
-    background-color: burlywood;
+  color: black;
+  background-color: burlywood;
 }
 
 .responsive li {
-    display: block;
+  display: block;
 }
 
 /******************** All of my the middle of my webpage or main css will go below *******************/
 .pic-head {
-    font-size: 3em;
+  font-size: 3em;
 }
 
 body {
-    background: radial-gradient(brown,cornsilk);
-    font-family: 'Lato', sans-serif;
-    display: grid;
+  background: radial-gradient(brown, cornsilk);
+  font-family: "Lato", sans-serif;
+  display: grid;
 }
 
-
 main {
-    max-width: 100%;
-    margin: 0 auto;
-    display: grid;
-    grid-template-rows: 5em 1fr 8em 23em;
-    font-size: 0.8rem;
-    background-color: cornsilk;
-    
+  max-width: 100%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-rows: 5em 1fr 8em 23em;
+  font-size: 0.8rem;
+  background-color: cornsilk;
 }
 
 .forecast {
-    /*display: grid;
+  /*display: grid;
     grid-template-columns: repeat(3, 1fr);*/
-    font-size: 18px;
-    justify-content: right;
-    padding-top: 1em;
+  font-size: 18px;
+  justify-content: right;
+  padding-top: 1em;
 }
 
 .forecasthead {
-    font-size: 18px;
-    justify-content: right;
+  font-size: 18px;
+  justify-content: right;
 }
 
 .article {
-    display: inline-block;
-    /*grid-template-columns: repeat(2, 1fr);*/
-    background: radial-gradient(cornsilk, cadetblue);
+  display: inline-block;
+  /*grid-template-columns: repeat(2, 1fr);*/
+  background: radial-gradient(cornsilk, cadetblue);
 }
 
 .news-para {
-
-    font-size: 20px;
-    padding-left: 20px;
-    margin-left: 2.5em;
+  font-size: 20px;
+  padding-left: 20px;
+  margin-left: 2.5em;
 }
-    
-.news-head{
-    font-size: 2em;
-    margin-left: 2.58em;
+
+.news-head {
+  font-size: 2em;
+  margin-left: 2.58em;
 }
 /*  ------------------------- Article section ----------------------  */
-.evtpic{
-    float: right;
-    margin: 1em;
-    height: 25em;
-   
+.evtpic {
+  float: right;
+  margin: 1em;
+  height: 25em;
 }
 
 /*  ----------------------  Thank you report  -----------------------  */
-#report{
-    border: 3px solid brown;
-    width: 50em;
-    margin-top: 2em;
-    margin-left: 23em;
-    height: 15em;
-    background-color: cadetblue;
-
+#report {
+  border: 3px solid brown;
+  width: 50em;
+  margin-top: 2em;
+  margin-left: 23em;
+  height: 15em;
+  background-color: cadetblue;
 }
-.ack-h{
-    font-size: 4em;
-    margin-left: -.75em;
+.ack-h {
+  font-size: 4em;
+  margin-left: -0.75em;
 }
-.ack-p{
-    margin-left: 14.5em;
-    font-size: 2em;
+.ack-p {
+  margin-left: 14.5em;
+  font-size: 2em;
 }
 
 /*  ----------------------  Town events  -----------------------  */
 
-.twnevt{
-    border: 3px solid brown;
-    margin-top: 16.5em;
-    margin-left: .65em;
-    width: 98.15em;
+.twnevt {
+  border: 3px solid brown;
+  margin-top: 16.5em;
+  margin-left: 0.65em;
+  width: 98.15em;
 }
-.twnevt div{
-    
-    font-size: 2em;
-    width:48em;
-    background: radial-gradient(cornsilk, cadetblue);
-   
-    margin-left: .42em;
-    margin-bottom: .15em;;
+.twnevt div {
+  font-size: 2em;
+  width: 48em;
+  background: radial-gradient(cornsilk, cadetblue);
+
+  margin-left: 0.42em;
+  margin-bottom: 0.15em;
 }
 
-.twnevt h2{
-    font-size: 3em;
-    margin-left: -1em;
+.twnevt h2 {
+  font-size: 3em;
+  margin-left: -1em;
 }
 
 /*------------------------------ Form Styling -----------------------*/
 
 form fieldset {
-    margin: 2rem 0;
-    border: 1px solid #445ba9;
-    border-radius: 10px;
-    padding: .5rem 2%;
-    margin-left: 0;
-    }
+  margin: 2rem 0;
+  border: 1px solid brown;
+  border-radius: 10px;
+  padding: 0.5rem 2%;
+  margin-left: 13.5vw;
+  max-width: 40vw;
+}
 
 form lengend {
-    color: #445ba9;
-    margin: 0 1rem;
-    padding: 0, 5rem;
+  color: #445ba9;
+  margin: 0 1rem;
+  padding: 0, 5rem;
 }
 
 form label.top,
 form div {
-    display: block;
-    padding-top: 1rem;
-    color: #9c2c13;
-    font-size: .8rem;
+  display: block;
+  padding-top: 1rem;
+  color: #9c2c13;
+  font-size: 0.8rem;
 }
 
-form label.top input, form label.top select{
-    -webkit-appearnce: none;
-    display: block;
-    font-size: 1rem;
-    border: solid 1px #999;
-    border-radius: 4px;
-    padding: .75rem;
-    color: #555;
-    width: 100%;
-    max-width: 20rem;
-    background-color: rgba(0,0,0,0.1);
+form label.top input,
+form label.top select {
+  -webkit-appearnce: none;
+  display: block;
+  font-size: 1rem;
+  border: solid 1px #999;
+  border-radius: 4px;
+  padding: 0.75rem;
+  color: #555;
+  width: 100%;
+  max-width: 20rem;
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
-form label.sbs{
-    display: block;
-    padding: .75rem 0;
-    color: #555;
+form label.sbs {
+  display: block;
+  padding: 0.75rem 0;
+  color: #555;
 }
 
-form input.submitBtn{
-    border: none;
-    background-color: cadetblue;
-    color:black;
-    border-radius: 1rem;
-    padding: .75rem 1.5rem;
-    margin: 0 0 2rem 2%;
-    width: 96%;
-    max-width: 20rem;
-    margin-left: 1em;
+form input.submitBtn {
+  border: none;
+  background-color: cadetblue;
+  color: black;
+  border-radius: 1rem;
+  padding: 0.75rem 1.5rem;
+  margin-top: 10vh;
+  margin-left: -15vw;
+  width: 37vw;
+  margin-left: 15vw;
 }
 
-form label.top input:required{
-    border-left: red solid 6px;
+form label.top input:required {
+  border-left: red solid 6px;
 }
 
-form label.top input:required:valid{
-    border-left: green solid 6px;
+form label.top input:required:valid {
+  border-left: green solid 6px;
 }
 
+#comments {
+  width: 37vw;
+}
 /* ************* this area is to be used for all images ******************************************* */
 
 .preston-img {
-   width: 100%;
-
+  width: 100%;
 }
 
 .news-img {
-    max-width: 150em;
-    float: right;
-    height: 15em;
-    margin-top: 25px;
-    margin-right: 20px;
+  max-width: 150em;
+  float: right;
+  height: 15em;
+  margin-top: 25px;
+  margin-right: 20px;
 }
 
 #overlay {
-    position: relative;
-    right: 10px;
+  position: relative;
+  right: 10px;
 }
 
 #atmospheric {
-    display: block;
-    left: 20px;
-    bottom: 290px;
-    align-items: end;
-    box-shadow: 5px 5px 30px;
-    background-color: #222629;
-    position: absolute;
-    text-align: center;
-    font-size: 1em;
-
+  display: block;
+  left: 20px;
+  bottom: 290px;
+  align-items: end;
+  box-shadow: 5px 5px 30px;
+  background-color: #222629;
+  position: absolute;
+  text-align: center;
+  font-size: 1em;
 }
 
 #atmospheric h2.weatherhead {
-    margin-left: 12px;
+  margin-left: 12px;
 }
 
 #atmospheric,
 .daily-sum {
-    padding: .5em;
-    border: 1px solid goldenrod;
-    background: radial-gradient(burlywood, brown);
-    left: 20px;
-    height: 15em;
-    opacity: 0.75;
-    font-size: 15px;
-    color: black;
-
+  padding: 0.5em;
+  border: 1px solid goldenrod;
+  background: radial-gradient(burlywood, brown);
+  left: 20px;
+  height: 15em;
+  opacity: 0.75;
+  font-size: 15px;
+  color: black;
 }
-
 
 /*-------------------------------------Contacts-------------------------*/
 
 #contacts-container {
-    display: inline-block;
-    line-height: 1em;
-    background: radial-gradient(cornsilk, cadetblue);
+  display: inline-block;
+  line-height: 1em;
+  background: radial-gradient(cornsilk, cadetblue);
 }
 
 .smedia {
-    padding: .5em;
-    max-width: 5em;
-    height: auto;
+  padding: 0.5em;
+  max-width: 5em;
+  height: auto;
 }
 
 #s-elements .preston-map {
-    max-width: 100%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
 }
 
-
-
 #s-elements {
-    padding: 1em;
-    max-width: 960px;
-    margin: 0 auto;
+  padding: 1em;
+  max-width: 960px;
+  margin: 0 auto;
 }
 
 #s-elements .info {
-    font-family: 'Lato', sans-serif;
-    font-size: 1.5em;
-    ;
+  font-family: "Lato", sans-serif;
+  font-size: 1.5em;
 }
 
 #s-elements p {
-    padding-left: 1em;
-    font-family: 'Lato', sans-serif;
-    font-size: 1.25em;
-
+  padding-left: 1em;
+  font-family: "Lato", sans-serif;
+  font-size: 1.25em;
 }
 
 /*  -------------------- lesson 7 lazy load  ------------------  */
 
 .lazyload {
-    display: grid;
-    grid-template-columns: 1fr;
-    justify-content: center;
-    align-content: center;
-    grid-gap: .25em;
-
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  align-content: center;
+  grid-gap: 0.25em;
 }
 
 .lazyload img {
-    filter: blur(0em);
-    transition: filter 0.5s;
-    width: 100%;
-    height: 16em;
+  filter: blur(0em);
+  transition: filter 0.5s;
+  width: 100%;
+  height: 16em;
 }
 
 .lazyload img[data-src] {
-    filter: blur(0.2em);
+  filter: blur(0.2em);
 }
 
 .lazyload figure {
-    text-align: center;
-    margin: 0;
+  text-align: center;
+  margin: 0;
 }
 
 .lazyload figcaption {
-    background-color: cadetblue;
-    padding: 1em;
-    margin: 0;
+  background-color: cadetblue;
+  padding: 1em;
+  margin: 0;
 }
 
 .lazyload h2 {
-    text-align: center;
+  text-align: center;
 }
 
 /******************** All of my the bottom of my webpage or footer css will go below *****************/
 
 footer {
-    background-color: brown;
-    text-align: center;
-    color: white;
-    font-size: 15px;
-    padding: 1px;
+  background-color: brown;
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  padding: 1px;
 }
 
 footer a {
-    color: yellow;
+  color: yellow;
 }
 
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
+  content: "";
+  display: table;
+  clear: both;
 }
-
 
 /*end of small */

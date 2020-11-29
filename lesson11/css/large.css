@@ -185,7 +185,7 @@ table{
 
    /*  -------------- lesson 8 storm report  ---------------------------  */
   form fieldset {
-    margin-left: 1em;
+    /*margin-left: 1em;*/
     height: 33em;
 }
 
@@ -195,7 +195,7 @@ form label.sbs{
 }
 
 form input.submitBtn{
-    margin-left: 10em;
+    /*margin-left: 10em;*/
 }
 
 

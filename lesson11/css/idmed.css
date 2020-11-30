@@ -123,7 +123,7 @@ h5{
 }
 
     /*------------------------------ Contacts-----------------------------*/
-    #contacts-container {
+    /*#contacts-container {
         display: inline-block;
         line-height: 1em;
         background: cadetblue;
@@ -132,35 +132,35 @@ h5{
         margin-bottom: 1em;
         margin-left: -5.25em;
            
-    }
+    }*/
     
     #s-elements .preston-map {
         float: right;
         width: 30em;
-        height: 20em;
+        height: 10em;
         margin-left: 25px;
 
     }
 
-    #s-elements .info {
+    /*#s-elements .info {
         margin: 1.25em;
         margin-left: -11em;
-    }
+    }*/
 
-    #s-elements p {
+   /* #s-elements p {
         margin: 1.25em;
-    }
+    }*/
 
-    .smedia {
+   /* .smedia {
         margin-left: 2em;
-    }
+    }*/
 
     /******************** All of my the bottom of my webpage or footer css will go below *****************/
 
     footer {
-        width: 36.5em;
+        /*width: 36.5em;
         margin-left: 2em;
-        margin-top: -4.25em;
+        margin-top: -4.25em;*/
         background-color: brown;
         text-align: center;
         color: white;

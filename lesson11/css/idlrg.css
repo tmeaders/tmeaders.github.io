@@ -121,7 +121,7 @@
   }
 
   /*-------------------------------------Contacts-------------------------*/
-    #contacts-container {
+   /* #contacts-container {
     display: inline-block;
     line-height: 1em;
     background: cadetblue;
@@ -130,16 +130,16 @@
     height: 28em;
     border: solid;
     border-color: brown;
-  }
+  }*/
 
-  .smedia {
+ /* .smedia {
      display: inline-block;
     padding: 0.5em;
     width: 5em;
     height: 5em;
     margin-left: 0;
     
-  }
+  }*/
 
   #s-elements .preston-map {
     float: right;
@@ -153,26 +153,26 @@
 
   
 
-  #s-elements .info {
+ /* #s-elements .info {
     font-family: "Lato", sans-serif;
     font-size: 2.75em;
     margin-left: -6.5em;
-    margin-top: .75em;
+    margin-top: .75em;*/
   }
 
-  #s-elements p {
+  /*#s-elements p {
     margin-left: -5.25em;
     font-family: "Lato", sans-serif;
     font-size: 2.5em;
    
-  }
+  }*/
 
   /******************** All of my the bottom of my webpage or footer css will go below *****************/
 
   footer {
-    width: 54.78em;
+   /* width: 54.78em;
     margin-left: 10.25em;
-    margin-top: 0;
+    margin-top: 0;*/
     background-color: brown;
     text-align: center;
     color: white;

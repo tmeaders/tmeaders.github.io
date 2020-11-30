@@ -175,6 +175,11 @@ main {
     text-align: center;
 }
 
+iframe{
+    float: left;
+    margin-left: -10vw;
+    margin-right: 1vw;
+}
 
 /*-------------------------------------Contacts-------------------------*/
 #d-elements {

@@ -196,7 +196,7 @@ main {
   margin-top: 2em;
   margin-left: 23em;
   height: 15em;
-  background-color: cadetblue;
+  background:radial-gradient(cornsilk, cadetblue);
 }
 .ack-h {
   font-size: 4em;
@@ -230,58 +230,77 @@ main {
 
 /*------------------------------ Storm report form Styling -----------------------*/
 
+.rptstorm{
+    font-size: 6vh;
+    margin-left: -2vw;
+    margin-top: 2vh;
+    
+}
+
 form fieldset {
   margin: 2rem 0;
-  border: 1px solid brown;
+  border: 3px solid brown;
   border-radius: 10px;
   padding: 0.5rem 2%;
   margin-left: 13.5vw;
-  max-width: 40vw;
-}
+  margin-bottom: 3vh;
+  margin-top: 6vh;
+  width: 40vw;
+  background: radial-gradient(cornsilk, cadetblue);
+ }
 
-form lengend {
-  color: #445ba9;
+form legend {
+  color: brown;
   margin: 0 1rem;
   padding: 0, 5rem;
+  font-size: 4vh;
+  background: radial-gradient(cornsilk, cadetblue);
+  border-radius: 15px 15px;
+  border: 3px solid brown;
 }
 
 form label.top,
 form div {
   display: block;
   padding-top: 1rem;
-  color: #9c2c13;
-  font-size: 0.8rem;
-}
+  color:black;
+  font-size: 2vh;
+  font-family: "Lato", sans-serif;
+  }
 
 form label.top input,
 form label.top select {
   -webkit-appearnce: none;
   display: block;
   font-size: 1rem;
-  border: solid 1px #999;
+  border: solid 3px brown;
   border-radius: 4px;
   padding: 0.75rem;
   color: #555;
   width: 100%;
   max-width: 20rem;
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: whitesmoke;
 }
 
 form label.sbs {
   display: block;
-  padding: 0.75rem 0;
-  color: #555;
+  padding: 0.75vh 0;
+  color:black;
+  font-size: 2vh;
+  font-family: "Lato", sans-serif;
 }
 
 form input.submitBtn {
-  border: none;
-  background-color: cadetblue;
+   background: radial-gradient(cornsilk, cadetblue);
+  font-size: 2vh;
+  font-family: "Lato", sans-serif;
   color: black;
   border-radius: 1rem;
+  border: 3px solid brown;
   padding: 0.75rem 1.5rem;
-  margin-top: 10vh;
+  margin-top: 1vh;
   margin-left: -15vw;
-  width: 37vw;
+  width: 10vw;
   margin-left: 15vw;
 }
 
@@ -295,6 +314,9 @@ form label.top input:required:valid {
 
 #comments {
   width: 37vw;
+  height: 15vh;
+  border: 3px solid brown;
+  background:  whitesmoke;
 }
 /* ************* this area is to be used for all images ******************************************* */
 
@@ -404,6 +426,17 @@ form label.top input:required:valid {
   line-height: 1em;
   background: radial-gradient(cornsilk, cadetblue);
 }
+
+#sr-contacts-container {
+    display: inline-block;
+    line-height: 1em;
+    background: radial-gradient(cornsilk, cadetblue);
+    height: 39vh;
+    width: 66.5vw;
+    margin-left: .6vw;
+    margin-top: 6.5vh;
+    border: 3px solid brown;
+  }
 
 .smedia {
   padding: 0.5em;

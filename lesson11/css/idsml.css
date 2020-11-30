@@ -194,15 +194,21 @@ h5 {
 
 /*-------------------------------------Contacts-------------------------*/
 
+iframe{
+    float: left;
+    margin-left: -10vw;
+    margin-right: 1vw;
+}
+
 #contacts-container {
     display: inline-block;
     line-height: 1em;
-    height: 36.5em;
-    width: 39rem;
-    margin-bottom: 1em;
-    margin-left: -.05em;
-
-    background: radial-gradient(cornsilk, cadetblue);
+    background: cadetblue;
+    width: 71.5vw;
+    margin-left: .75em;
+    height: 39.25vh;
+    border: solid;
+    border-color: brown;
 }
 
 .smedia {
@@ -225,17 +231,16 @@ h5 {
     margin: 0 auto;
 }
 
-#s-elements .info {
+.id-info {
     font-family: 'Lato', sans-serif;
-    font-size: 1.5em;
-    margin: 0;
-    margin-left: -25rem;
+    font-size: 3vh;
 }
+
 
 #s-elements p {
     padding-left: 1em;
     font-family: 'Lato', sans-serif;
-    font-size: 1.25em;
+    font-size: 2vh;
 
 }
 
@@ -247,10 +252,10 @@ footer {
     color: white;
     font-size: 18px;
     padding: 1px;
-    width: 39rem;
+    width: 72.9vw;
     height: 6em;
-    margin-left: -.05rem;
-    margin-top: 4.5em;
+    margin-left: 13.6vw;
+    margin-top: -6.5vh;
 }
 
 footer a {

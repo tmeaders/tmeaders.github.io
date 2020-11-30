@@ -53,7 +53,17 @@
     display: block;
     font-size: 2em;
     border: solid;
-    
+    border-color: cornsilk;
+  }
+
+  .navigation li a:hover {
+    color: black;
+    background: burlywood;
+  }
+
+  nav ul li a.active {
+    color: black;
+    background-color: burlywood;
   }
 
   .motto {

@@ -369,7 +369,7 @@ form label.top input:required:valid {
 
 #atmospheric {
   display: block;
-  magin-left: .5vw;
+  margin-left: .5vw;
   bottom: 25vh;
   align-items: end;
   box-shadow: 5px 5px 30px;

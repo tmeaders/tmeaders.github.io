@@ -39,18 +39,18 @@ header {
 .headericon {
     height: 10em;
     margin-bottom: 1rem;
-    margin-top: 2.4em;
-    margin-left: 13rem;
+    margin-top: 8vh;
+    margin-left: 12vw;
 }
 
 header h1 {
     font-size: 2.5em;
-    text-align: center;
     font-family: 'Carter One', cursive;
     color: white;
     display: block;
     margin-top: 1rem;
     margin-right: .25rem;
+    margin-left: 20vw;
 
 }
 

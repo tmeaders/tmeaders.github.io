@@ -15,22 +15,21 @@
     border-radius: 10px 10px 0 0;
   }
 
-  .headericon {
+  /*.headericon {
     float: left;
     height: 11em;
     margin-left: 0em;
     margin-top: 3em;
-  }
+  }*/
 
   header h1 {
     font-size: 4rem;
-    text-align: center;
     line-height: 1px;
     font-family: "Carter One", cursive;
     color: white;
     display: block;
     margin-top: -0.5em;
-    margin-left: -1em;
+    /*margin-left: -1em;*/
   }
 
   header h2 {

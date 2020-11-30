@@ -10,23 +10,22 @@
     }
 
     
-    .headericon {
+    /*.headericon {
         float: left;
         height: 11em;
         margin-left: 1em;
         margin-top: 3em;
         margin-bottom: 0;
-    }
+    }*/
 
     header h1 {
         font-size: 3rem;
-        text-align: center;
         line-height: 1px;
         font-family: 'Carter One', cursive;
         color: white;
         display: block;
         margin-top: -.5em;
-        margin-left: 2.25em;
+        /*margin-left: 2.25em;*/
     }
 
     header h2 {

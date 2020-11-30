@@ -85,9 +85,11 @@ nav {
 }
 
 .navigation li a {
-    text-align: center;
-    white-space: nowrap;
-}
+    display: block;
+    font-size: 2em;
+    border: solid;
+    border-color: cornsilk;
+  }
 
 .navigation li a:hover {
     color: black;

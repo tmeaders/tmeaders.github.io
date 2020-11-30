@@ -4,31 +4,29 @@
 @media only screen and (min-width: 32.5em) {
    
     header {
-        width: 58em;
-        border-radius: 10px 10px;
-        margin: 0 auto;
+        
+        width: 100vw;
+
+    }
+    .headericon {
+        float: left;
+        height: 18vh;
+        margin-left: 16vw;
+        margin-top: 4vh;
+        margin-bottom: 0;
     }
 
-    
-    /*.headericon {
-        float: left;
-        height: 11em;
-        margin-left: 1em;
-        margin-top: 3em;
-        margin-bottom: 0;
-    }*/
-
     header h1 {
-        font-size: 3rem;
-        line-height: 1px;
+        font-size: 5vh;
         font-family: 'Carter One', cursive;
         color: white;
         display: block;
-        margin-top: -.5em;
-        /*margin-left: 2.25em;*/
+        margin-top: -8vh;
+        margin-right: .25rem;
+        margin-left: 30vw;
+    
     }
-
-    header h2 {
+    /*header h2 {
         font-size: 2rem;
         text-align: center;
         line-height: 1px;
@@ -36,12 +34,11 @@
         color: white;
         padding-bottom: 1em;
         ;
-    }
-
+    }*/
+   
     .motto {
-        margin-left: 4.5em;
-        margin-top: 1rem;
-        font-size: 1.5em;
+        margin-left: 4vw;
+       
     }
 
 
@@ -57,8 +54,13 @@
     .navigation li a {
         display: block;
         font-size: 1.25rem;
+        border: 3px solid cornsilk;
     }
-
+    
+    .navigation a {
+        margin-left: 0vw;
+    }
+    
     .navigation li {
         display: block;
     }
@@ -70,9 +72,9 @@
         margin-left: 3.5em;
     }
 
-    h3.pi-head{
+    h3.pic-head{
         font-size: 3rem;
-        margin-left: 15.5rem;
+        margin-left: 36vw;
     }
 
     /* ****************************** this area is for images *************************************************** */
@@ -81,6 +83,13 @@
     /******************** All of my the middle of my webpage or main css will go below *******************/
     #body-content{
         vertical-align: baseline;
+    }
+
+    main{
+    margin-left: 0em;
+    width: 100vw;
+    height: 206vh;
+    
     }
 
  /*home page styling */
@@ -92,10 +101,15 @@
     justify-items: center;
     align-items: center;
     align-content: center;
-    margin-left: -4.15rem;
-    width: 56.5rem;
+    margin-left: 1vw;
+    width: 97.5vw;
 
 }
+
+.places p{
+    font-size: 3vh;
+}
+
 .townPic{
     max-width: 60%;
     height: 30em;
@@ -108,11 +122,11 @@
 
 h4{
     text-align:center;
-font-size: 3rem;
+font-size: 4vh;
 }
 
 h5{
-    font-size: 2rem;
+    font-size: 3vh;
 }
 
 .info{
@@ -122,17 +136,21 @@ h5{
 }
 
     /*------------------------------ Contacts-----------------------------*/
-    /*#contacts-container {
+    iframe{
+        float: right;
+        width: 65vw;
+        margin-left: -1.25vw;
+    }
+    #contacts-container {
         display: inline-block;
         line-height: 1em;
-        background: cadetblue;
-        height: 22em;
-        width: 70.75em;
-        margin-bottom: 1em;
-        margin-left: -5.25em;
-           
-    }*/
-    
+        width: 97.55vw;
+        margin-left: 1vw;
+        margin-top: -.005vh;
+        height: 40vh;
+        border: solid;
+        border-color: brown;
+    }
     #s-elements .preston-map {
         float: right;
         width: 30em;
@@ -157,9 +175,9 @@ h5{
     /******************** All of my the bottom of my webpage or footer css will go below *****************/
 
     footer {
-        /*width: 36.5em;
-        margin-left: 2em;
-        margin-top: -4.25em;*/
+        width: 100vw;
+        margin-left: 0vw;
+        margin-top: 0vh;
         background-color: brown;
         text-align: center;
         color: white;

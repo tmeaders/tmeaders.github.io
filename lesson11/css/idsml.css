@@ -32,7 +32,7 @@ header {
     justify-content: center;
     background-color: brown;
     color: white;
-    width: 39rem;
+    width: 210vw;
 }
 
 
@@ -48,18 +48,17 @@ header h1 {
     font-family: 'Carter One', cursive;
     color: white;
     display: block;
-    margin-top: 1rem;
-    margin-right: .25rem;
-    margin-left: 20vw;
+    margin-top: -6vh;
+    margin-left: 60vw;
 
 }
 
 .motto {
     padding: .5rem;
     font-family: 'Carter One', sans-serif;
-    margin-left: 1rem;
+    margin-left: 22vw;
     margin-top: -1rem;
-    font-size: 1.75rem;
+    font-size: 3vh;
 }
 
 header h2 {
@@ -99,6 +98,7 @@ li {
 
 .navigation a {
     display: block;
+    margin-left: -89vw;
     font-size: x-large;
     padding: 0.75rem;
     text-align: left;
@@ -126,6 +126,7 @@ body {
     background: radial-gradient(brown,cornsilk);
     font-family: 'Lato', sans-serif;
     display: grid;
+    
 }
 
 #body-conent{
@@ -133,8 +134,9 @@ body {
 }
 
 main {
-    width: 100%;
-    margin-left: 0 auto;
+    margin-left: 0vw;
+    width: 210vw;
+    height: 390vh;
     display: grid;
     grid-template-rows: 5em 1fr 8em 23em;
     font-size: 0.8rem;
@@ -145,7 +147,7 @@ main {
 
 h3.pic-head {
     font-size: 3rem;
-    margin-left: 29vw;
+    margin-left: 75vw;
 }
 
 /*home page styling */
@@ -156,11 +158,11 @@ h3.pic-head {
 
 .places {
     display: block;
-    border: 2px solid #023c19;
+    border: 3px solid brown;
     padding: 20px;
     margin: 10px;
-    margin-left: -.15rem;
-    width: 39rem;
+    margin-left: 4vw;
+    width: 200vw;
     background-color: cadetblue;
 
 }
@@ -185,7 +187,7 @@ h5 {
 }
 
 .townPic {
-    width: 36.5rem;
+    width: 189vw;
 
 }
 
@@ -196,17 +198,19 @@ h5 {
 
 iframe{
     float: left;
-    margin-left: -10vw;
-    margin-right: 1vw;
+    margin-left: -.25vw;
+    width: 195vw;
+    margin-bottom: 4vh;
 }
 
 #contacts-container {
     display: inline-block;
     line-height: 1em;
     background: cadetblue;
-    width: 71.5vw;
-    margin-left: .75em;
-    height: 39.25vh;
+    width: 200vw;
+    margin-left: 4vw;
+    margin-top: -17vh;
+    height: 65vh;
     border: solid;
     border-color: brown;
 }
@@ -234,6 +238,7 @@ iframe{
 .id-info {
     font-family: 'Lato', sans-serif;
     font-size: 3vh;
+    
 }
 
 
@@ -250,12 +255,12 @@ footer {
     background-color: brown;
     text-align: center;
     color: white;
-    font-size: 18px;
-    padding: 1px;
-    width: 72.9vw;
-    height: 6em;
-    margin-left: 13.6vw;
-    margin-top: -6.5vh;
+    font-size: 4vh;
+    padding-top: -1vh;
+    width: 210vw;
+    height: 25vh;
+    margin-left: 0vw;
+    margin-top: 0vh;
 }
 
 footer a {

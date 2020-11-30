@@ -54,7 +54,7 @@
 
   .navigation li a {
     display: block;
-    font-size: 2rem;
+    font-size: 3vh;
     border: solid;
     border-color: cornsilk;
     margin-top: 0.25em;
@@ -62,12 +62,12 @@
 
   .navigation li a:hover {
     color: black;
-    background: whitesmoke;
+    background: burlywood;
   }
 
   nav ul li a.active {
     color: black;
-    background-color: goldenrod;
+    background-color: burlywood;
   }
 
   h2.galhead {

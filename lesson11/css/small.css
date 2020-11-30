@@ -185,6 +185,8 @@ main {
   float: right;
   margin: 1em;
   height: 25em;
+  box-shadow: 5px 5px 30px;
+
 }
 
 /*  ----------------------  Thank you storm report  -----------------------  */
@@ -313,14 +315,14 @@ form label.top input:required:valid {
 
 #fh-atmospheric {
   display: block;
-  bottom: 32.25vh;
+  bottom: 27.25vh;
   align-items: end;
   box-shadow: 5px 5px 30px;
   background-color: #222629;
   position: absolute;
   text-align: center;
   font-size: 1em;
-  margin-left: 1vw;
+  margin-left: 1.25vw;
 }
 
 #fh-atmospheric h2.weatherhead {
@@ -342,7 +344,7 @@ form label.top input:required:valid {
 #ss-atmospheric {
     display: block;
     margin-left: 1vw;
-    bottom: 27vh;
+    bottom: 23.5vh;
     align-items: end;
     box-shadow: 5px 5px 30px;
     background-color: #222629;
@@ -370,7 +372,7 @@ form label.top input:required:valid {
 #atmospheric {
   display: block;
   margin-left: .5vw;
-  bottom: 25vh;
+  bottom: 21.5vh;
   align-items: end;
   box-shadow: 5px 5px 30px;
   background-color: #222629;
@@ -405,8 +407,15 @@ form label.top input:required:valid {
 
 .smedia {
   padding: 0.5em;
-  max-width: 5em;
+  width: 3vw;
   height: auto;
+}
+
+iframe{
+    float: left;
+    margin-left: -7.75vw;
+    margin-bottom: 1.5vh;
+    margin-right: 1.5vw
 }
 
 #s-elements .preston-map {

@@ -10,7 +10,7 @@
     justify-content: center;
     background-color: brown;
     color: white;
-    width: 55vw;
+    width: 40vw;
     margin-left: 16em;
     border-radius: 10px 10px 0 0;
   }
@@ -158,7 +158,7 @@
     /******************** All of my the bottom of my webpage or footer css will go below *****************/
 
   footer {
-   width: 65vw;
+   width: 75vw;
     margin-left: 10.25em;
     margin-top: 0;
     background-color: brown;

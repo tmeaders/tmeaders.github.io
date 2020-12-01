@@ -40,7 +40,7 @@ header {
     height: 10em;
     margin-bottom: 1rem;
     margin-top: 8vh;
-    margin-left: 8vw;
+    margin-left: 16vw;
 }
 
 header h1 {
@@ -49,14 +49,14 @@ header h1 {
     color: white;
     display: block;
     margin-top: -6vh;
-    margin-left: 45vw;
+    margin-left: 62vw;
 
 }
 
 .motto {
     padding: .5rem;
     font-family: 'Carter One', sans-serif;
-    margin-left: -30vw;
+    margin-left: 5vw;
     margin-top: 1vh;
     font-size: 3vh;
 }
@@ -136,7 +136,7 @@ body {
 main {
     margin-left: 0vw;
     width: 210vw;
-    height: 357vh;
+    height: 390vh;
     display: grid;
     grid-template-rows: 5em 1fr 8em 23em;
     font-size: 0.8rem;
@@ -147,7 +147,7 @@ main {
 
 h3.pic-head {
     font-size: 3rem;
-    margin-left: 55vw;
+    margin-left: 72vw;
 }
 
 /*home page styling */
@@ -162,7 +162,7 @@ h3.pic-head {
     padding: 20px;
     margin: 10px;
     margin-left: 4vw;
-    width: 164vw;
+    width: 200vw;
     background-color: cadetblue;
 
 }
@@ -187,7 +187,7 @@ h5 {
 }
 
 .townPic {
-    width: 152vw;
+    width: 188vw;
 
 }
 
@@ -199,7 +199,7 @@ h5 {
 iframe{
     float: left;
     margin-left: -.25vw;
-    width: 156vw;
+    width: 192vw;
     margin-bottom: 4vh;
 }
 
@@ -207,7 +207,7 @@ iframe{
     display: inline-block;
     line-height: 1em;
     background: cadetblue;
-    width: 164vw;
+    width: 200vw;
     margin-left: 4vw;
     margin-top: -17vh;
     height: 65vh;
@@ -257,7 +257,7 @@ footer {
     color: white;
     font-size: 4vh;
     padding-top: -1vh;
-    width: 172vw;
+    width: 210vw;
     height: 40vh;
     margin-left: 0vw;
     margin-top: 0vh;

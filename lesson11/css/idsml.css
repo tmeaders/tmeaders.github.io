@@ -136,7 +136,7 @@ body {
 main {
     margin-left: 0vw;
     width: 210vw;
-    height: 390vh;
+    height: 357vh;
     display: grid;
     grid-template-rows: 5em 1fr 8em 23em;
     font-size: 0.8rem;
@@ -162,7 +162,7 @@ h3.pic-head {
     padding: 20px;
     margin: 10px;
     margin-left: 4vw;
-    width: 200vw;
+    width: 164vw;
     background-color: cadetblue;
 
 }
@@ -187,7 +187,7 @@ h5 {
 }
 
 .townPic {
-    width: 189vw;
+    width: 152vw;
 
 }
 
@@ -199,7 +199,7 @@ h5 {
 iframe{
     float: left;
     margin-left: -.25vw;
-    width: 195vw;
+    width: 156vw;
     margin-bottom: 4vh;
 }
 
@@ -207,7 +207,7 @@ iframe{
     display: inline-block;
     line-height: 1em;
     background: cadetblue;
-    width: 200vw;
+    width: 164vw;
     margin-left: 4vw;
     margin-top: -17vh;
     height: 65vh;
@@ -257,7 +257,7 @@ footer {
     color: white;
     font-size: 4vh;
     padding-top: -1vh;
-    width: 210vw;
+    width: 172vw;
     height: 40vh;
     margin-left: 0vw;
     margin-top: 0vh;

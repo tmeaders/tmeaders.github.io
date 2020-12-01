@@ -40,7 +40,7 @@ header {
     height: 10em;
     margin-bottom: 1rem;
     margin-top: 8vh;
-    margin-left: 12vw;
+    margin-left: 8vw;
 }
 
 header h1 {
@@ -49,15 +49,15 @@ header h1 {
     color: white;
     display: block;
     margin-top: -6vh;
-    margin-left: 60vw;
+    margin-left: 45vw;
 
 }
 
 .motto {
     padding: .5rem;
     font-family: 'Carter One', sans-serif;
-    margin-left: 22vw;
-    margin-top: -1rem;
+    margin-left: -30vw;
+    margin-top: 1vh;
     font-size: 3vh;
 }
 
@@ -147,7 +147,7 @@ main {
 
 h3.pic-head {
     font-size: 3rem;
-    margin-left: 75vw;
+    margin-left: 55vw;
 }
 
 /*home page styling */

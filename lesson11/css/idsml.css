@@ -258,9 +258,10 @@ footer {
     font-size: 4vh;
     padding-top: -1vh;
     width: 210vw;
-    height: 25vh;
+    height: 40vh;
     margin-left: 0vw;
     margin-top: 0vh;
+    padding-top: 1vh;
 }
 
 footer a {

@@ -139,6 +139,40 @@ main {
   background-color: cornsilk;
 }
 
+/*  --------------------------   Wireframe  --------------------  */
+
+#wire-main{
+  height: 130vh;
+}
+.large{
+  margin-left: 4vw;
+  font-size: 4vh;
+  margin-top: 3vh;
+  border: 3px solid brown;
+  height: 8vh;
+  width: 38vw;
+  background: radial-gradient(cornsilk, cadetblue);
+  }
+  .small{
+    margin-left: 4vw;
+    font-size: 4vh;
+    margin-top: -28vh;
+    border: 3px solid brown;
+    height: 8vh;
+    width: 38vw;
+    background: radial-gradient(cornsilk, cadetblue);
+   }
+.smwire{
+  margin-left: 4vw;
+  margin-top: -26vh;
+  border: 3px solid brown;
+}
+
+.lgwire{
+  margin-left: 4vw;
+  margin-top: 8vh;
+  border: 3px solid brown;
+}
 /*  -------------------------  Five day forecast  ---------------  */
 
 .forecast {
